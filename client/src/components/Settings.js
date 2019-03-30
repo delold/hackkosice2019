@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Input, Button, Select } from 'semantic-ui-react'
 
-import styles from './Settings.module.css'
 
 class Settings extends React.Component{
 

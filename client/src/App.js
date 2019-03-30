@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+
+
 import 'semantic-ui-css/semantic.min.css'
 import './App.css'
 
@@ -16,6 +18,7 @@ import { createTransactionModel } from './utils/transaction'
 const defaultItems = [
   createTransactionModel({ id: 0 }),
 ]
+
 
 
 class App extends Component {
