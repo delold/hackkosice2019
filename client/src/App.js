@@ -12,16 +12,17 @@ import TimerSelect from './components/TimerSelect'
 
 
 class App extends Component {
-  render() {
-    return (        
-		<SideBar>
-			<div className="App">
-	        	<PieChart />
-	        	<TimerSelect />
-	        	<List />
-	      	</div>
-        </SideBar>
-  	}
+	  render() {
+	    return (        
+			<SideBar>
+				<div className="App">
+		        	<PieChart />
+		        	<TimerSelect />
+		        	<List />
+		      	</div>
+	        </SideBar>
+	  	)
+	}
 }
 
 export default App;
