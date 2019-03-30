@@ -5,7 +5,7 @@ import Amount from './Amount';
 import { getCategoryColor, getCategoryImage } from '../utils/color';
 
 
-const ListItem = ({ category, amount, perHour, currency = 'EUR' }) => {
+const ListItem = ({ category, detail, amount, perHour, currency = 'EUR' }) => {
   return (
     <div className={styles.item}>
       <div className={styles.image}>
@@ -13,6 +13,7 @@ const ListItem = ({ category, amount, perHour, currency = 'EUR' }) => {
       </div>
       <div className={styles.content}>
         <span className={styles.name}>{category}</span>
+        <span className={styles.detail}>{detail}</span>
       </div>
       <div className={styles.amount}>
         <Amount amount={amount} currency={currency} perHour={perHour} />

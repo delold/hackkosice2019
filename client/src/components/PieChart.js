@@ -4,8 +4,8 @@ import styles from './PieChart.module.css'
 import { PieChart, Pie } from 'recharts'
 
 const data01 = [
-  { name: 'Group A', value: 400 },
-  { name: 'Group A', value: 30 },
+  { value: 400 },
+  { value: 30 },
 ]
 
 const PieComponent = () => {
@@ -27,9 +27,11 @@ const PieComponent = () => {
       </PieChart>
     </div>
     <div className={styles.inside}>
-      <div className={styles.play}>
-        Record
+      <span className={styles.description}>You are working for</span>
+      <div className={styles.hours}>
+        12:35:12
       </div>
+      <span className={styles.active}>hours</span>
     </div>
   </div>
 }
