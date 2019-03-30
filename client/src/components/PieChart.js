@@ -1,18 +1,16 @@
 import React, { useState, useEffect, useRef } from 'react'
 import styles from './PieChart.module.css'
 import moment from 'moment'
+import { Button, Input } from 'semantic-ui-react';
 
-import { PieChart, Pie } from 'recharts'
+import { PieChart, Pie, Cell } from 'recharts'
 
 const formatDuration = (timestamp) => {
-  let rounded = Math.floor(Math.abs(timestamp) / 1000)
-  const seconds = rounded % 60
+  const duration = moment.duration(timestamp)
 
-  rounded = Math.floor(rounded / 60)
-  const minutes = rounded % 60
-  
-  rounded = Math.floor(rounded / 60)
-  const hours = rounded % 24
+  const seconds = duration.seconds()
+  const minutes = duration.minutes()
+  const hours = duration.hours()
 
   const pad = (str) => Math.abs(str) > 9 ? Math.abs(str) : `0${Math.abs(str)}`
   const final = [pad(hours), pad(minutes), pad(seconds)].join(':')
@@ -39,49 +37,63 @@ const useInterval = () => {
   
   useEffect(() => {
     if (start) {
-      const nextTimestamp = Math.floor((timestamp / 1000) + 1) * 1000
-      const delay = (start - timestamp === 0) ? 0 : (timestamp + 1000) - nextTimestamp
-
-      setTimeout(() => setTimestamp(nextTimestamp), delay)
+      setTimeout(() => setTimestamp(timestamp + 1000), 0)
+      // setTimeout(() => setTimestamp(timestamp + 1000), 1000 - (timestamp % 1000))
     }
   });
 
   return [start ? timestamp - start : null, ref.current]
 }
 
+const COLORS = ['#8BC34A', '#F44336']
 
-
-const PieComponent = ({ items = [], perHour }) => {
+const PieComponent = ({ items = [], perHour, addTimer }) => {
   const [delay, toggle] = useInterval()
 
-  const remaining = (items.reduce((memo, { amount }) => memo + amount, 0) / perHour) * 60 * 60 * 1000
-  const difference = remaining + delay
+  const source = (items.reduce((memo, { amount, type }) => type !== 'timer' && memo + amount, 0) / perHour) * 60 * 60 * 1000
+  const timers = (items.reduce((memo, { type, amount }) => type === 'timer' && memo + amount, 0) / perHour) * 60 * 60 * 1000 + delay
+
+
+  const debt = Math.abs(Math.min(0, source + timers))
+  const cleared = Math.abs(timers)
 
   const width = 300
   const height = 300
+
+  const data = [{ value: cleared }, { value: debt }]
+  
   return <div className={styles.chart} style={{ width, height }}>
     <div className={styles.content}>
       <PieChart width={width} height={height}>
         <Pie
           dataKey="value"
-          data={[{ value: 100 }]}
-          startAngle={0}
-          endAngle={Math.abs(Math.min(360, Math.max(0, (remaining - difference) / remaining)) * 360)}
+          data={data}
           cx={width / 2 - 6}
           cy={height / 2 - 6}
           paddingAngle={0}
           innerRadius={100}
           outerRadius={120}
-          fill={difference < 0 ? "#F44336" : "#8BC34A"}
-        />
+        >
+          {
+            data.map((_, index) => <Cell key={`cell-${index}`} fill={COLORS[index]} />)
+          }
+        </Pie>
       </PieChart>
     </div>
     <div className={styles.inside} onClick={toggle}>
-      <span className={styles.description}>{difference < 0 ? 'You need to work' : 'You are over'}</span>
+      <span className={styles.description}>{source + timers < 0 ? 'You need to work' : 'You are over'}</span>
       <div className={styles.hours}>
-        {formatDuration(Math.abs(difference))}
+        {formatDuration(debt)}
       </div>
       <span className={styles.active}>hours</span>
+    </div>
+    <div className={styles.controls}>
+      <Button onClick={toggle}>{delay ? 'Stop' : 'Start'}</Button>
+      {!delay && <>
+        <span></span>
+        <Input type="time" />
+        <Button>Přidat</Button>
+      </>}
     </div>
   </div>
 }

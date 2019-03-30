@@ -25,17 +25,13 @@ const defaultItems = [
 class App extends Component {
 	  render() {
 	    return (   
-	    	<div>     
 				<SideBar>
-					
-			        <AddButton />
+					<AddButton />
 					<div className="App">
-			        	<PieChart items={defaultItems} perHour={210} />
-			        	<TimerSelect />
-			        	<List items={defaultItems} perHour={210} />
-			      	</div>
-		        </SideBar>
-	    	</div>
+						<PieChart items={defaultItems} perHour={210} />
+						<List items={defaultItems} perHour={210} />
+					</div>
+				</SideBar>
 	    );
 	}
 }

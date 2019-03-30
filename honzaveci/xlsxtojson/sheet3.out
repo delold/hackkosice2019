@@ -1,76 +1,76 @@
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (1, 'eur', 'Digital Goods: Games', 'PLAYSTATIONNETWORK', 3, '01-05-18', 'Outside Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (2, 'eur', 'Sports/Riding Apparel Stores', 'ALPINE PRO', 3, '01-07-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (3, 'eur', 'Digital Goods: Games', 'BRLOH', 3, '01-09-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (4, 'eur', 'Digital Goods: Games', 'PLAYSTATIONNETWORK', 3, '01-12-18', 'Outside Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (5, 'eur', 'Digital Goods: Games', 'PLAYSTATIONNETWORK', 3, '01-16-18', 'Outside Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (6, 'eur', 'Digital Goods: Games', 'BRLOH', 3, '01-18-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (7, 'eur', 'Family Clothing Stores', 'ALPINE PRO', 3, '01-21-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (8, 'eur', 'Digital Goods: Games', 'PLAYSTATIONNETWORK', 3, '01-23-18', 'Outside Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (9, 'eur', 'Digital Goods: Games', 'HRAC', 3, '01-26-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (10, 'eur', 'Sporting Goods Stores', 'ALPINE PRO', 3, '01-28-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (11, 'eur', 'Digital Goods: Games', 'PLAYSTATIONNETWORK', 3, '01-28-18', 'Outside Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (12, 'eur', 'Digital Goods: Games', 'PLAYSTATIONNETWORK', 3, '01-29-18', 'Outside Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (13, 'eur', 'Digital Goods: Games', 'BRLOH', 3, '01-30-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (14, 'eur', 'Digital Goods: Games', 'PLAYSTATIONNETWORK', 3, '01-31-18', 'Outside Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (15, 'eur', 'Digital Goods: Games', 'PLAYSTATIONNETWORK', 3, '02-01-18', 'Outside Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (16, 'eur', 'Grocery Stores/Supermarkets', 'BILLA', 3, '02-02-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (17, 'eur', 'Digital Goods: Games', 'BRLOH', 3, '02-05-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (18, 'eur', 'Digital Goods: Games', 'PLAYSTATIONNETWORK', 3, '02-08-18', 'Outside Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (19, 'eur', 'Digital Goods: Games', 'PLAYSTATIONNETWORK', 3, '02-09-18', 'Outside Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (20, 'eur', 'Digital Goods: Games', 'HRAC', 3, '02-14-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (21, 'eur', 'Digital Goods: Games', 'PLAYSTATIONNETWORK', 3, '02-16-18', 'Outside Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (22, 'eur', 'Family Clothing Stores', 'ALPINE PRO', 3, '02-18-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (23, 'eur', 'Digital Goods: Games', 'PLAYSTATIONNETWORK', 3, '02-21-18', 'Outside Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (24, 'eur', 'Digital Goods: Games', 'PLAYSTATIONNETWORK', 3, '02-24-18', 'Outside Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (25, 'eur', 'Digital Goods: Games', 'PLAYSTATIONNETWORK', 3, '02-26-18', 'Outside Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (26, 'eur', 'Digital Goods: Games', 'PLAYSTATIONNETWORK', 3, '02-27-18', 'Outside Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (27, 'eur', 'Cosmetic Stores', 'FANN', 3, '03-21-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (28, 'eur', '', 'MESTO', 3, '01-12-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (29, 'eur', '', 'MESTO', 3, '01-15-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (30, 'eur', '', '"SLOVAK TELEKOM', 3, '01-23-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (31, 'eur', '', 'MESTO', 3, '01-27-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (32, 'eur', '', 'MESTO', 3, '01-28-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (33, 'eur', '', '', 3, '02-09-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (34, 'eur', '', '"SLOVAK TELEKOM', 3, '02-12-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (35, 'eur', '', 'MESTO', 3, '02-27-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (36, 'eur', '', '"SLOVAK TELEKOM', 3, '02-27-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (37, 'eur', '', 'MESTO', 3, '02-27-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (38, 'eur', '', '', 3, '03-02-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (106, 'eur', 'Digital Goods: Games', 'PLAYSTATIONNETWORK', 3, '01-05-18', 'Outside Slovakia', 'expense', 30);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (107, 'eur', 'Sports/Riding Apparel Stores', 'ALPINE PRO', 3, '01-07-18', 'Slovakia', 'expense', 139);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (108, 'eur', 'Digital Goods: Games', 'BRLOH', 3, '01-09-18', 'Slovakia', 'expense', 32);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (109, 'eur', 'Digital Goods: Games', 'PLAYSTATIONNETWORK', 3, '01-12-18', 'Outside Slovakia', 'expense', 30);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (110, 'eur', 'Digital Goods: Games', 'PLAYSTATIONNETWORK', 3, '01-16-18', 'Outside Slovakia', 'expense', 30);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (111, 'eur', 'Digital Goods: Games', 'BRLOH', 3, '01-18-18', 'Slovakia', 'expense', 28);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (112, 'eur', 'Family Clothing Stores', 'ALPINE PRO', 3, '01-21-18', 'Slovakia', 'expense', 127);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (113, 'eur', 'Digital Goods: Games', 'PLAYSTATIONNETWORK', 3, '01-23-18', 'Outside Slovakia', 'expense', 30);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (114, 'eur', 'Digital Goods: Games', 'HRAC', 3, '01-26-18', 'Slovakia', 'expense', 15);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (115, 'eur', 'Sporting Goods Stores', 'ALPINE PRO', 3, '01-28-18', 'Slovakia', 'expense', 74);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (116, 'eur', 'Digital Goods: Games', 'PLAYSTATIONNETWORK', 3, '01-28-18', 'Outside Slovakia', 'expense', 30);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (117, 'eur', 'Digital Goods: Games', 'PLAYSTATIONNETWORK', 3, '01-29-18', 'Outside Slovakia', 'expense', 30);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (118, 'eur', 'Digital Goods: Games', 'BRLOH', 3, '01-30-18', 'Slovakia', 'expense', 5);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (119, 'eur', 'Digital Goods: Games', 'PLAYSTATIONNETWORK', 3, '01-31-18', 'Outside Slovakia', 'expense', 30);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (120, 'eur', 'Digital Goods: Games', 'PLAYSTATIONNETWORK', 3, '02-01-18', 'Outside Slovakia', 'expense', 30);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (121, 'eur', 'Grocery Stores/Supermarkets', 'BILLA', 3, '02-02-18', 'Slovakia', 'expense', 70);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (122, 'eur', 'Digital Goods: Games', 'BRLOH', 3, '02-05-18', 'Slovakia', 'expense', 33);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (123, 'eur', 'Digital Goods: Games', 'PLAYSTATIONNETWORK', 3, '02-08-18', 'Outside Slovakia', 'expense', 30);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (124, 'eur', 'Digital Goods: Games', 'PLAYSTATIONNETWORK', 3, '02-09-18', 'Outside Slovakia', 'expense', 30);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (125, 'eur', 'Digital Goods: Games', 'HRAC', 3, '02-14-18', 'Slovakia', 'expense', 62);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (126, 'eur', 'Digital Goods: Games', 'PLAYSTATIONNETWORK', 3, '02-16-18', 'Outside Slovakia', 'expense', 30);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (127, 'eur', 'Family Clothing Stores', 'ALPINE PRO', 3, '02-18-18', 'Slovakia', 'expense', 109);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (128, 'eur', 'Digital Goods: Games', 'PLAYSTATIONNETWORK', 3, '02-21-18', 'Outside Slovakia', 'expense', 30);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (129, 'eur', 'Digital Goods: Games', 'PLAYSTATIONNETWORK', 3, '02-24-18', 'Outside Slovakia', 'expense', 30);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (130, 'eur', 'Digital Goods: Games', 'PLAYSTATIONNETWORK', 3, '02-26-18', 'Outside Slovakia', 'expense', 30);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (131, 'eur', 'Digital Goods: Games', 'PLAYSTATIONNETWORK', 3, '02-27-18', 'Outside Slovakia', 'expense', 30);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (132, 'eur', 'Cosmetic Stores', 'FANN', 3, '03-21-18', 'Slovakia', 'expense', 124);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (133, 'eur', '', 'MESTO', 3, '01-12-18', 'Slovakia', 'expense', 20);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (134, 'eur', '', 'MESTO', 3, '01-15-18', 'Slovakia', 'expense', 20);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (135, 'eur', '', '"SLOVAK TELEKOM', 3, '01-23-18', 'Slovakia', 'expense', 123);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (136, 'eur', '', 'MESTO', 3, '01-27-18', 'Slovakia', 'expense', 20);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (137, 'eur', '', 'MESTO', 3, '01-28-18', 'Slovakia', 'expense', 20);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (138, 'eur', '', '', 3, '02-09-18', 'Slovakia', 'expense', 38);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (139, 'eur', '', '"SLOVAK TELEKOM', 3, '02-12-18', 'Slovakia', 'expense', 94);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (140, 'eur', '', 'MESTO', 3, '02-27-18', 'Slovakia', 'expense', 20);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (141, 'eur', '', '"SLOVAK TELEKOM', 3, '02-27-18', 'Slovakia', 'expense', 67);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (142, 'eur', '', 'MESTO', 3, '02-27-18', 'Slovakia', 'expense', 20);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (143, 'eur', '', '', 3, '03-02-18', 'Slovakia', 'expense', 133);
