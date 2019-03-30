@@ -4,7 +4,7 @@ import styles from './AddButton.style.css'
 const AddButton = () => {
   return (
 		<div>
-			<button type="button"> add </button>
+			<button className={styles.add}>Add an expense</button>
 		</div>
   )
 }

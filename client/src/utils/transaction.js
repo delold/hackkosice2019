@@ -7,6 +7,6 @@ export const createTransactionModel = (overrides = {}) => ({
   author_id: 0,
   date: '2019-03-30 20:12:12',
   location: 'Slovakia',
-  type: 'timer', // timer | expense | income
+  type: 'expense', // timer | expense | income
   ...overrides,
 })
