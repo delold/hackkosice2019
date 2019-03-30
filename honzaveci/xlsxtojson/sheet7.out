@@ -1,0 +1,74 @@
+[
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '10-04-18', Country: 'SK', Amount: 21.46, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'TESCO', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '10-09-18', Country: 'SK', Amount: 8.78, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'TESCO', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '10-20-18', Country: 'SK', Amount: 10.86, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'TESCO', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '10-21-18', Country: 'SK', Amount: 6.52, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'TESCO', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '10-22-18', Country: 'SK', Amount: 13.02, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'TESCO', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '10-26-18', Country: 'SK', Amount: 4.05, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'TESCO', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '11-09-18', Country: 'SK', Amount: 3.10, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'TESCO', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '11-13-18', Country: 'SK', Amount: 11.30, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'TESCO', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '11-15-18', Country: 'SK', Amount: 17.09, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'TESCO', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '11-17-18', Country: 'SK', Amount: 15.06, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Misc Home Furnishing Specialty', Merchant Name: 'IKEA', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '11-23-18', Country: 'SK', Amount: 10.55, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'TESCO', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '12-08-18', Country: 'SK', Amount: 50.00, Device: 'ATM', Location: 'Slovakia', Mechant Type: 'Financial Institutions - Automated Cash Disbursements', Merchant Name: 'TB DUNAJSKA', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '12-25-18', Country: 'SK', Amount: 5.85, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'TESCO', Description: 'BRATISLAVA'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '10-01-18', Country: 'SK', Amount: 160.00, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: 'PREVOD'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '10-06-18', Country: 'SK', Amount: 170.00, Device: 'Internet banking', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: ''
+ },
+  { Type: 'Transfer', Debit/Credit: 'Debit', Date: '10-06-18', Country: 'SK', Amount: 21.64, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: 'MIESTNY URAD', Description: 'NAJOMNE'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Debit', Date: '10-09-18', Country: 'SK', Amount: 18.02, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '"SLOVENSKA POSTA', Description: ' A.S."', : 'SIPO INKASO ZA OBDOBIE 10/2017'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Debit', Date: '10-10-18', Country: 'SK', Amount: 7.98, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '"SLOVAK TELEKOM', Description: ' A.S."', : ''
+ },
+  { Type: 'Transfer', Debit/Credit: 'Debit', Date: '10-14-18', Country: 'SK', Amount: 5.73, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '"ZSE ENERGIA', Description: ' A.S."', : ''
+ },
+  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '10-18-18', Country: 'SK', Amount: 330.00, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: 'SOCIALNA POISTOVNA', Description: '*DOCHODOK ZA 10 2016*'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '10-18-18', Country: 'SK', Amount: 120.00, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: ''
+ },
+  { Type: 'Transfer', Debit/Credit: 'Debit', Date: '10-18-18', Country: 'SK', Amount: 17.39, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: 'RTVS', Description: 'POPLATOK ZA ROZHLAS A TELEVIZIU'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Debit', Date: '10-25-18', Country: 'SK', Amount: 25.11, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: 'MIESTNY URAD', Description: 'NAJOMNE'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Debit', Date: '10-26-18', Country: 'SK', Amount: 28.04, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '"SLOVENSKA POSTA', Description: ' A.S."', : 'SIPO INKASO ZA OBDOBIE 11/2017'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Debit', Date: '10-30-18', Country: 'SK', Amount: 19.61, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '"SLOVAK TELEKOM', Description: ' A.S."', : ''
+ },
+  { Type: 'Transfer', Debit/Credit: 'Debit', Date: '11-02-18', Country: 'SK', Amount: 12.34, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '"ZSE ENERGIA', Description: ' A.S."', : ''
+ },
+  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '11-03-18', Country: 'SK', Amount: 330.00, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: 'SOCIALNA POISTOVNA', Description: '*DOCHODOK ZA 11 2016*'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Debit', Date: '11-06-18', Country: 'SK', Amount: 11.03, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: 'ROZHLAS A TELEVIZIA', Description: 'POPLATOK ZA ROZHLAS A TELEVIZIU'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '11-13-18', Country: 'SK', Amount: 56.00, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: 'MIESTNY URAD', Description: 'PREPLATOK'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Debit', Date: '11-20-18', Country: 'SK', Amount: 10.19, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: 'MIESTNY URAD', Description: 'NAJOMNE'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Debit', Date: '11-23-18', Country: 'SK', Amount: 25.83, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '"SLOVAK TELEKOM', Description: ' A.S."', : ''
+ },
+  { Type: 'Transfer', Debit/Credit: 'Debit', Date: '11-25-18', Country: 'SK', Amount: 26.27, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '"SLOVENSKA POSTA', Description: ' A.S."', : 'SIPO INKASO ZA OBDOBIE 12/2017'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '11-29-18', Country: 'SK', Amount: 70.00, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: 'SOCIALNA POISTOVNA', Description: '*VIANOCNY PRISPEVOK 2016 SOCPOIST*'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '12-02-18', Country: 'SK', Amount: 330.00, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: 'SOCIALNA POISTOVNA', Description: '*DOCHODOK ZA 12 2016*'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Debit', Date: '12-05-18', Country: 'SK', Amount: 6.68, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: 'ROZHLAS A TELEVIZIA SLOVENSKA', Description: 'POPLATOK ZA ROZHLAS A TELEVIZIU'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Debit', Date: '12-11-18', Country: 'SK', Amount: 28.45, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '"ZSE ENERGIA', Description: ' A.S."', : ''
+ }
+]

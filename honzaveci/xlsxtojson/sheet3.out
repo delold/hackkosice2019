@@ -1,0 +1,78 @@
+[
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-05-18', Country: 'GB', Amount: 30.00, Device: 'Internet', Location: 'Outside Slovakia', Mechant Type: 'Digital Goods: Games', Merchant Name: 'PLAYSTATIONNETWORK', Description: 'INTERNET'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-07-18', Country: 'SK', Amount: 139.69, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Sports/Riding Apparel Stores', Merchant Name: 'ALPINE PRO', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-09-18', Country: 'SK', Amount: 32.00, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Digital Goods: Games', Merchant Name: 'BRLOH', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-12-18', Country: 'GB', Amount: 30.00, Device: 'Internet', Location: 'Outside Slovakia', Mechant Type: 'Digital Goods: Games', Merchant Name: 'PLAYSTATIONNETWORK', Description: 'INTERNET'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-16-18', Country: 'GB', Amount: 30.00, Device: 'Internet', Location: 'Outside Slovakia', Mechant Type: 'Digital Goods: Games', Merchant Name: 'PLAYSTATIONNETWORK', Description: 'INTERNET'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-18-18', Country: 'SK', Amount: 28.00, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Digital Goods: Games', Merchant Name: 'BRLOH', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-21-18', Country: 'SK', Amount: 127.64, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Family Clothing Stores', Merchant Name: 'ALPINE PRO', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-23-18', Country: 'GB', Amount: 30.00, Device: 'Internet', Location: 'Outside Slovakia', Mechant Type: 'Digital Goods: Games', Merchant Name: 'PLAYSTATIONNETWORK', Description: 'INTERNET'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-26-18', Country: 'SK', Amount: 15.00, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Digital Goods: Games', Merchant Name: 'HRAC', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-28-18', Country: 'SK', Amount: 74.26, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Sporting Goods Stores', Merchant Name: 'ALPINE PRO', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-28-18', Country: 'GB', Amount: 30.00, Device: 'Internet', Location: 'Outside Slovakia', Mechant Type: 'Digital Goods: Games', Merchant Name: 'PLAYSTATIONNETWORK', Description: 'INTERNET'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-29-18', Country: 'GB', Amount: 30.00, Device: 'Internet', Location: 'Outside Slovakia', Mechant Type: 'Digital Goods: Games', Merchant Name: 'PLAYSTATIONNETWORK', Description: 'INTERNET'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-30-18', Country: 'SK', Amount: 5.00, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Digital Goods: Games', Merchant Name: 'BRLOH', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-31-18', Country: 'GB', Amount: 30.00, Device: 'Internet', Location: 'Outside Slovakia', Mechant Type: 'Digital Goods: Games', Merchant Name: 'PLAYSTATIONNETWORK', Description: 'INTERNET'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-01-18', Country: 'GB', Amount: 30.00, Device: 'Internet', Location: 'Outside Slovakia', Mechant Type: 'Digital Goods: Games', Merchant Name: 'PLAYSTATIONNETWORK', Description: 'INTERNET'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-02-18', Country: 'SK', Amount: 70.81, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-05-18', Country: 'SK', Amount: 33.00, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Digital Goods: Games', Merchant Name: 'BRLOH', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-08-18', Country: 'GB', Amount: 30.00, Device: 'Internet', Location: 'Outside Slovakia', Mechant Type: 'Digital Goods: Games', Merchant Name: 'PLAYSTATIONNETWORK', Description: 'INTERNET'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-09-18', Country: 'GB', Amount: 30.00, Device: 'Internet', Location: 'Outside Slovakia', Mechant Type: 'Digital Goods: Games', Merchant Name: 'PLAYSTATIONNETWORK', Description: 'INTERNET'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-14-18', Country: 'SK', Amount: 62.00, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Digital Goods: Games', Merchant Name: 'HRAC', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-16-18', Country: 'GB', Amount: 30.00, Device: 'Internet', Location: 'Outside Slovakia', Mechant Type: 'Digital Goods: Games', Merchant Name: 'PLAYSTATIONNETWORK', Description: 'INTERNET'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-18-18', Country: 'SK', Amount: 109.88, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Family Clothing Stores', Merchant Name: 'ALPINE PRO', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-21-18', Country: 'GB', Amount: 30.00, Device: 'Internet', Location: 'Outside Slovakia', Mechant Type: 'Digital Goods: Games', Merchant Name: 'PLAYSTATIONNETWORK', Description: 'INTERNET'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-24-18', Country: 'GB', Amount: 30.00, Device: 'Internet', Location: 'Outside Slovakia', Mechant Type: 'Digital Goods: Games', Merchant Name: 'PLAYSTATIONNETWORK', Description: 'INTERNET'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-26-18', Country: 'GB', Amount: 30.00, Device: 'Internet', Location: 'Outside Slovakia', Mechant Type: 'Digital Goods: Games', Merchant Name: 'PLAYSTATIONNETWORK', Description: 'INTERNET'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-27-18', Country: 'GB', Amount: 30.00, Device: 'Internet', Location: 'Outside Slovakia', Mechant Type: 'Digital Goods: Games', Merchant Name: 'PLAYSTATIONNETWORK', Description: 'INTERNET'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '03-21-18', Country: 'SK', Amount: 124.72, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Cosmetic Stores', Merchant Name: 'FANN', Description: 'BRATISLAVA'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Debit', Date: '01-12-18', Country: 'SK', Amount: 20.00, Device: 'TB App', Location: 'Slovakia', Mechant Type: '', Merchant Name: 'MESTO', Description: 'STRAVA 11/2017'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Debit', Date: '01-15-18', Country: 'SK', Amount: 20.00, Device: 'TB App', Location: 'Slovakia', Mechant Type: '', Merchant Name: 'MESTO', Description: 'STRAVA 11/2017'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Debit', Date: '01-23-18', Country: 'SK', Amount: 123.95, Device: 'TB App', Location: 'Slovakia', Mechant Type: '', Merchant Name: '"SLOVAK TELEKOM', Description: ' A.S."', : ''
+ },
+  { Type: 'Transfer', Debit/Credit: 'Debit', Date: '01-27-18', Country: 'SK', Amount: 20.00, Device: 'TB App', Location: 'Slovakia', Mechant Type: '', Merchant Name: 'MESTO', Description: 'STRAVA 12/2017'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Debit', Date: '01-28-18', Country: 'SK', Amount: 20.00, Device: 'TB App', Location: 'Slovakia', Mechant Type: '', Merchant Name: 'MESTO', Description: 'STRAVA 12/2017'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Debit', Date: '02-09-18', Country: 'SK', Amount: 38.04, Device: 'TB App', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: 'STRAVA 11/2017'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Debit', Date: '02-12-18', Country: 'SK', Amount: 94.88, Device: 'TB App', Location: 'Slovakia', Mechant Type: '', Merchant Name: '"SLOVAK TELEKOM', Description: ' A.S."', : ''
+ },
+  { Type: 'Transfer', Debit/Credit: 'Debit', Date: '02-27-18', Country: 'SK', Amount: 20.00, Device: 'TB App', Location: 'Slovakia', Mechant Type: '', Merchant Name: 'MESTO', Description: 'STRAVA 1/2018'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Debit', Date: '02-27-18', Country: 'SK', Amount: 67.17, Device: 'TB App', Location: 'Slovakia', Mechant Type: '', Merchant Name: '"SLOVAK TELEKOM', Description: ' A.S."', : ''
+ },
+  { Type: 'Transfer', Debit/Credit: 'Debit', Date: '02-27-18', Country: 'SK', Amount: 20.00, Device: 'TB App', Location: 'Slovakia', Mechant Type: '', Merchant Name: 'MESTO', Description: 'STRAVA 1/2018'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Debit', Date: '03-02-18', Country: 'SK', Amount: 133.68, Device: 'TB App', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: '12/2017'
+ }
+]
