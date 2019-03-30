@@ -1,5 +1,6 @@
-import React from 'react'
-import { Button, Header, Icon, Image, Menu, Segment, Sidebar } from 'semantic-ui-react'
+import React from 'react';
+import { Button, Header, Icon, Image, Menu, Segment, Sidebar } from 'semantic-ui-react';
+import styles from './SideBar.module.css';
 
 class SideBar extends React.Component {
   state = { visible: false }
@@ -21,7 +22,7 @@ class SideBar extends React.Component {
           			</Button>
         		</Button.Group>
 
-        	<Sidebar.Pushable>
+        	<Sidebar.Pushable className={styles.sidebarcontainer}>
 	          	<Sidebar
 		            as={Menu}
 		            animation='overlay'
