@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react'
+import { Input, Button, Select } from 'semantic-ui-react'
+
 import styles from './Settings.module.css'
 
 class Settings extends React.Component{
@@ -9,22 +11,17 @@ class Settings extends React.Component{
 		return(
 			<div>
 				<div>
-					<button type="button"> close </button>
-				</div>
-				<div>
 					Monthly Income
 				</div>
 				
-				<input type="text" /> 
-				<select name = "Select type">
-					<option value="" selected disabled hidden>Select type</option>
-				  <option value="Hourly">Hourly</option>
-				  <option value="Monthly">Monthly</option>
-				</select>
+				<div className = "ui input">
+					<input type="text" /> 
+				</div>
+				<Select placeholder='Select your country' 
+  					options={[{text: 'Hourly'},{text: 'Monthly'}]} />
 			</div>
 		)
 	}
 };
 
-
-export default Settings; 
+export default Settings;
