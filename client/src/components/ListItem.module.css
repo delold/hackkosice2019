@@ -1,3 +1,15 @@
 .item {
+  display: flex; 
+}
+
+.image {
   
+}
+
+.content {
+  flex-grow: 1;
+}
+.amount {
+  display: flex;
+  flex-direction: column;
 }
