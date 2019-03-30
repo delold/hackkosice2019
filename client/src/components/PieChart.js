@@ -5,14 +5,11 @@ import moment from 'moment'
 import { PieChart, Pie } from 'recharts'
 
 const formatDuration = (timestamp) => {
-  let rounded = Math.floor(Math.abs(timestamp) / 1000)
-  const seconds = rounded % 60
+  const duration = moment.duration(timestamp)
 
-  rounded = Math.floor(rounded / 60)
-  const minutes = rounded % 60
-  
-  rounded = Math.floor(rounded / 60)
-  const hours = rounded % 24
+  const seconds = duration.seconds()
+  const minutes = duration.minutes()
+  const hours = duration.hours()
 
   const pad = (str) => Math.abs(str) > 9 ? Math.abs(str) : `0${Math.abs(str)}`
   const final = [pad(hours), pad(minutes), pad(seconds)].join(':')
@@ -39,10 +36,7 @@ const useInterval = () => {
   
   useEffect(() => {
     if (start) {
-      const nextTimestamp = Math.floor((timestamp / 1000) + 1) * 1000
-      const delay = (start - timestamp === 0) ? 0 : (timestamp + 1000) - nextTimestamp
-
-      setTimeout(() => setTimestamp(nextTimestamp), delay)
+      setTimeout(() => setTimestamp(timestamp + 1000), 1000 - (timestamp % 1000))
     }
   });
 
@@ -55,7 +49,9 @@ const PieComponent = ({ items = [], perHour }) => {
   const [delay, toggle] = useInterval()
 
   const remaining = (items.reduce((memo, { amount }) => memo + amount, 0) / perHour) * 60 * 60 * 1000
+
   const difference = remaining + delay
+  console.log(remaining, delay)
 
   const width = 300
   const height = 300
