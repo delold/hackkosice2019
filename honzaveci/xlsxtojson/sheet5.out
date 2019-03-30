@@ -1,90 +1,88 @@
-[
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-04-18', Country: 'SK', Amount: 18.28, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-09-18', Country: 'SK', Amount: 8.62, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-19-18', Country: 'SK', Amount: 20.47, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Drug Stores & Pharmacies', Merchant Name: 'LEKAREN', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-03-18', Country: 'SK', Amount: 16.15, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Family Clothing Stores', Merchant Name: 'H&M', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '03-02-18', Country: 'SK', Amount: 16.25, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '03-26-18', Country: 'SK', Amount: 10.44, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '04-06-18', Country: 'SK', Amount: 27.52, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Drug Stores & Pharmacies', Merchant Name: 'LEKAREN', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '04-06-18', Country: 'SK', Amount: 2.01, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '04-16-18', Country: 'SK', Amount: 14.16, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'DRACIK', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '04-30-18', Country: 'SK', Amount: 27.38, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '05-08-18', Country: 'SK', Amount: 4.22, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '05-28-18', Country: 'SK', Amount: 24.21, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '06-09-18', Country: 'SK', Amount: 17.08, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '07-04-18', Country: 'SK', Amount: 28.47, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Service Stations', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '07-13-18', Country: 'SK', Amount: 17.86, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '07-25-18', Country: 'SK', Amount: 12.26, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'DRACIK', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '07-25-18', Country: 'SK', Amount: 10.50, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '08-05-18', Country: 'SK', Amount: 20.83, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Drug Stores & Pharmacies', Merchant Name: 'LEKAREN', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '08-12-18', Country: 'SK', Amount: 25.00, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Shoe Stores', Merchant Name: 'CCC', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '08-19-18', Country: 'SK', Amount: 20.00, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Shoe Stores', Merchant Name: 'CCC', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '08-28-18', Country: 'SK', Amount: 200.00, Device: 'ATM', Location: 'Slovakia', Mechant Type: 'Financial Institutions - Automated Cash Disbursements', Merchant Name: 'TB', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '09-09-18', Country: 'SK', Amount: 18.47, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '09-19-18', Country: 'SK', Amount: 23.64, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '10-03-18', Country: 'SK', Amount: 22.10, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '10-13-18', Country: 'SK', Amount: 90.00, Device: 'ATM', Location: 'Slovakia', Mechant Type: 'Financial Institutions - Automated Cash Disbursements', Merchant Name: 'TB', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '10-22-18', Country: 'SK', Amount: 9.59, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '11-05-18', Country: 'SK', Amount: 22.19, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Sports/Riding Apparel Stores', Merchant Name: 'CCC', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '11-19-18', Country: 'SK', Amount: 24.54, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'DRACIK', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '12-02-18', Country: 'SK', Amount: 13.97, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Family Clothing Stores', Merchant Name: 'H&M', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '12-12-18', Country: 'SK', Amount: 14.49, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '12-19-18', Country: 'SK', Amount: 25.63, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Shoe Stores', Merchant Name: 'CCC', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '12-19-18', Country: 'SK', Amount: 23.62, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Book Stores', Merchant Name: 'H&M', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '12-22-18', Country: 'SK', Amount: 7.09, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '12-28-18', Country: 'SK', Amount: 8.68, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Family Clothing Stores', Merchant Name: 'H&M', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-09-19', Country: 'SK', Amount: 7.34, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '12-27-18', Country: 'SK', Amount: 24.13, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
- },
-  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '02-16-18', Country: 'SK', Amount: 21.27, Device: 'Internet banking', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: 'ROZPRAVKOVA  NEMCINA'
- },
-  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '03-14-18', Country: 'SK', Amount: 283.76, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '"URAD PRACE', Description: ' SOCIALNYCH VECI A RODINY ZILINA"', : 'PRIDAVKY NA DIETA A MATERSKA'
- },
-  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '04-10-18', Country: 'SK', Amount: 12.56, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '"SLOVENSKA POSTA', Description: ' A.S."', : ''
- },
-  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '05-22-18', Country: 'SK', Amount: 28.84, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '"SLOVENSKA POSTA', Description: ' A.S."', : ''
- },
-  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '06-18-18', Country: 'SK', Amount: 28.57, Device: 'Internet banking', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: 'ROZPRAVKOVA  NEMCINA'
- },
-  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '06-30-18', Country: 'SK', Amount: 283.76, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '"URAD PRACE', Description: ' SOCIALNYCH VECI A RODINY ZILINA"', : 'PRIDAVKY NA DIETA A MATERSKA'
- },
-  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '01-17-19', Country: 'SK', Amount: 283.76, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '"URAD PRACE', Description: ' SOCIALNYCH VECI A RODINY ZILINA"', : 'PRIDAVKY NA DIETA A MATERSKA'
- },
-  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '01-18-19', Country: 'SK', Amount: 8.64, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '"SLOVENSKA POSTA', Description: ' A.S."', : ''
- }
-]
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (1, 'eur', 'Grocery Stores/Supermarkets', 'LIDL', 5, '01-04-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (2, 'eur', 'Grocery Stores/Supermarkets', 'LIDL', 5, '01-09-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (3, 'eur', 'Drug Stores & Pharmacies', 'LEKAREN', 5, '01-19-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (4, 'eur', 'Family Clothing Stores', 'H&M', 5, '02-03-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (5, 'eur', 'Grocery Stores/Supermarkets', 'LIDL', 5, '03-02-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (6, 'eur', 'Grocery Stores/Supermarkets', 'LIDL', 5, '03-26-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (7, 'eur', 'Drug Stores & Pharmacies', 'LEKAREN', 5, '04-06-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (8, 'eur', 'Grocery Stores/Supermarkets', 'LIDL', 5, '04-06-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (9, 'eur', 'Grocery Stores/Supermarkets', 'DRACIK', 5, '04-16-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (10, 'eur', 'Grocery Stores/Supermarkets', 'LIDL', 5, '04-30-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (11, 'eur', 'Grocery Stores/Supermarkets', 'LIDL', 5, '05-08-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (12, 'eur', 'Grocery Stores/Supermarkets', 'LIDL', 5, '05-28-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (13, 'eur', 'Grocery Stores/Supermarkets', 'LIDL', 5, '06-09-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (14, 'eur', 'Service Stations', 'LIDL', 5, '07-04-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (15, 'eur', 'Grocery Stores/Supermarkets', 'LIDL', 5, '07-13-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (16, 'eur', 'Grocery Stores/Supermarkets', 'DRACIK', 5, '07-25-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (17, 'eur', 'Grocery Stores/Supermarkets', 'LIDL', 5, '07-25-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (18, 'eur', 'Drug Stores & Pharmacies', 'LEKAREN', 5, '08-05-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (19, 'eur', 'Shoe Stores', 'CCC', 5, '08-12-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (20, 'eur', 'Shoe Stores', 'CCC', 5, '08-19-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (21, 'eur', 'Financial Institutions - Automated Cash Disbursements', 'TB', 5, '08-28-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (22, 'eur', 'Grocery Stores/Supermarkets', 'LIDL', 5, '09-09-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (23, 'eur', 'Grocery Stores/Supermarkets', 'LIDL', 5, '09-19-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (24, 'eur', 'Grocery Stores/Supermarkets', 'LIDL', 5, '10-03-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (25, 'eur', 'Financial Institutions - Automated Cash Disbursements', 'TB', 5, '10-13-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (26, 'eur', 'Grocery Stores/Supermarkets', 'LIDL', 5, '10-22-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (27, 'eur', 'Sports/Riding Apparel Stores', 'CCC', 5, '11-05-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (28, 'eur', 'Grocery Stores/Supermarkets', 'DRACIK', 5, '11-19-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (29, 'eur', 'Family Clothing Stores', 'H&M', 5, '12-02-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (30, 'eur', 'Grocery Stores/Supermarkets', 'LIDL', 5, '12-12-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (31, 'eur', 'Shoe Stores', 'CCC', 5, '12-19-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (32, 'eur', 'Book Stores', 'H&M', 5, '12-19-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (33, 'eur', 'Grocery Stores/Supermarkets', 'LIDL', 5, '12-22-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (34, 'eur', 'Family Clothing Stores', 'H&M', 5, '12-28-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (35, 'eur', 'Grocery Stores/Supermarkets', 'LIDL', 5, '01-09-19', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (36, 'eur', 'Grocery Stores/Supermarkets', 'LIDL', 5, '12-27-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (37, 'eur', '', '', 5, '02-16-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (38, 'eur', '', '"URAD PRACE', 5, '03-14-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (39, 'eur', '', '"SLOVENSKA POSTA', 5, '04-10-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (40, 'eur', '', '"SLOVENSKA POSTA', 5, '05-22-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (41, 'eur', '', '', 5, '06-18-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (42, 'eur', '', '"URAD PRACE', 5, '06-30-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (43, 'eur', '', '"URAD PRACE', 5, '01-17-19', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (44, 'eur', '', '"SLOVENSKA POSTA', 5, '01-18-19', 'Slovakia', 'expense');

@@ -1,112 +1,110 @@
-[
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-02-18', Country: 'SK', Amount: 6.50, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-02-18', Country: 'SK', Amount: 7.32, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'MCDONALD'S', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-03-18', Country: 'SK', Amount: 10.89, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-05-18', Country: 'SK', Amount: 2.35, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-06-18', Country: 'SK', Amount: 1.40, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'MCDONALD'S', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-07-18', Country: 'SK', Amount: 12.70, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'MCDONALD'S', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-08-18', Country: 'SK', Amount: 9.36, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'SUBWAY', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-10-18', Country: 'SK', Amount: 2.70, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-10-18', Country: 'SK', Amount: 9.78, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'MCDONALD'S', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-11-18', Country: 'SK', Amount: 11.50, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-11-18', Country: 'SK', Amount: 10.78, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'MCDONALD'S', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-12-18', Country: 'SK', Amount: 8.68, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-14-18', Country: 'SK', Amount: 12.25, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'BUBBLEOLOGY', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-16-18', Country: 'SK', Amount: 10.26, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-17-18', Country: 'SK', Amount: 6.38, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'MCDONALD'S', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-19-18', Country: 'SK', Amount: 10.34, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'MCDONALD'S', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-21-18', Country: 'SK', Amount: 7.56, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'MCDONALD'S', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-21-18', Country: 'SK', Amount: 8.26, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-24-18', Country: 'SK', Amount: 10.46, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-24-18', Country: 'SK', Amount: 6.17, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'SUBWAY', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-26-18', Country: 'SK', Amount: 5.69, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-28-18', Country: 'SK', Amount: 4.35, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'MCDONALD'S', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-30-18', Country: 'SK', Amount: 1.52, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-01-18', Country: 'SK', Amount: 3.40, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'MCDONALD'S', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-03-18', Country: 'SK', Amount: 5.19, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-03-18', Country: 'SK', Amount: 5.46, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-04-18', Country: 'SK', Amount: 9.25, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-04-18', Country: 'SK', Amount: 9.97, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-04-18', Country: 'SK', Amount: 8.19, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'MCDONALD'S', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-05-18', Country: 'SK', Amount: 1.78, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'SUBWAY', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-06-18', Country: 'SK', Amount: 3.24, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-07-18', Country: 'SK', Amount: 13.52, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'MCDONALD'S', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-08-18', Country: 'SK', Amount: 4.15, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-09-18', Country: 'SK', Amount: 6.35, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-09-18', Country: 'SK', Amount: 7.68, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'TESCO', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-10-18', Country: 'SK', Amount: 70.00, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Family Clothing Stores', Merchant Name: 'H&M', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-10-18', Country: 'SK', Amount: 13.95, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-11-18', Country: 'AT', Amount: 1.91, Device: 'Terminal', Location: 'Outside Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'BURGER KING', Description: 'PARNDORF'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-12-18', Country: 'AT', Amount: 120.00, Device: 'Terminal', Location: 'Outside Slovakia', Mechant Type: 'Family Clothing Stores', Merchant Name: 'TOMMY HILFIGER OUTLET STO', Description: 'PARNDORF'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-12-18', Country: 'SK', Amount: 80.00, Device: 'ATM', Location: 'Slovakia', Mechant Type: 'Financial Institutions - Automated Cash Disbursements', Merchant Name: 'TB', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-12-18', Country: 'SK', Amount: 1.95, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'MCDONALD'S', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-13-18', Country: 'SK', Amount: 14.48, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'SUBWAY', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-13-18', Country: 'SK', Amount: 4.70, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'BURGER KING', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-13-18', Country: 'SK', Amount: 12.78, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
- },
-  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '01-06-18', Country: 'SK', Amount: 55.00, Device: 'VIAMO', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: 'PODPORA'
- },
-  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '01-06-18', Country: 'SK', Amount: 9.64, Device: 'VIAMO', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: 'CIZMY'
- },
-  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '01-06-18', Country: 'SK', Amount: 15.00, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: 'VRECKOVE'
- },
-  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '01-17-18', Country: 'SK', Amount: 6.69, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: 'POISTKA PZP'
- },
-  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '01-22-18', Country: 'SK', Amount: 15.00, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: 'VRECKOVE'
- },
-  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '01-24-18', Country: 'SK', Amount: 8.13, Device: 'VIAMO', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: ''
- },
-  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '02-01-18', Country: 'SK', Amount: 55.00, Device: 'VIAMO', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: 'PODPORA'
- },
-  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '02-04-18', Country: 'SK', Amount: 280.00, Device: 'Internet banking', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: 'PLAT 12017'
- },
-  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '02-07-18', Country: 'SK', Amount: 15.00, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: 'VRECKOVE'
- },
-  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '02-12-18', Country: 'SK', Amount: 250.00, Device: 'Internet banking', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: 'PLAT 22017'
- },
-  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '03-29-18', Country: 'SK', Amount: 15.00, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: 'VRECKOVE'
- }
-]
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (1, 'eur', 'Grocery Stores/Supermarkets', 'BILLA', 2, '01-02-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (2, 'eur', 'Fast Food Restaurants', 'MCDONALD'S', 2, '01-02-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (3, 'eur', 'Grocery Stores/Supermarkets', 'BILLA', 2, '01-03-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (4, 'eur', 'Grocery Stores/Supermarkets', 'BILLA', 2, '01-05-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (5, 'eur', 'Fast Food Restaurants', 'MCDONALD'S', 2, '01-06-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (6, 'eur', 'Fast Food Restaurants', 'MCDONALD'S', 2, '01-07-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (7, 'eur', 'Fast Food Restaurants', 'SUBWAY', 2, '01-08-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (8, 'eur', 'Grocery Stores/Supermarkets', 'BILLA', 2, '01-10-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (9, 'eur', 'Fast Food Restaurants', 'MCDONALD'S', 2, '01-10-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (10, 'eur', 'Grocery Stores/Supermarkets', 'BILLA', 2, '01-11-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (11, 'eur', 'Fast Food Restaurants', 'MCDONALD'S', 2, '01-11-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (12, 'eur', 'Grocery Stores/Supermarkets', 'BILLA', 2, '01-12-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (13, 'eur', 'Fast Food Restaurants', 'BUBBLEOLOGY', 2, '01-14-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (14, 'eur', 'Grocery Stores/Supermarkets', 'BILLA', 2, '01-16-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (15, 'eur', 'Fast Food Restaurants', 'MCDONALD'S', 2, '01-17-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (16, 'eur', 'Fast Food Restaurants', 'MCDONALD'S', 2, '01-19-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (17, 'eur', 'Fast Food Restaurants', 'MCDONALD'S', 2, '01-21-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (18, 'eur', 'Grocery Stores/Supermarkets', 'BILLA', 2, '01-21-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (19, 'eur', 'Grocery Stores/Supermarkets', 'BILLA', 2, '01-24-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (20, 'eur', 'Fast Food Restaurants', 'SUBWAY', 2, '01-24-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (21, 'eur', 'Grocery Stores/Supermarkets', 'BILLA', 2, '01-26-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (22, 'eur', 'Fast Food Restaurants', 'MCDONALD'S', 2, '01-28-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (23, 'eur', 'Grocery Stores/Supermarkets', 'BILLA', 2, '01-30-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (24, 'eur', 'Fast Food Restaurants', 'MCDONALD'S', 2, '02-01-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (25, 'eur', 'Grocery Stores/Supermarkets', 'BILLA', 2, '02-03-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (26, 'eur', 'Grocery Stores/Supermarkets', 'BILLA', 2, '02-03-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (27, 'eur', 'Grocery Stores/Supermarkets', 'BILLA', 2, '02-04-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (28, 'eur', 'Grocery Stores/Supermarkets', 'BILLA', 2, '02-04-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (29, 'eur', 'Fast Food Restaurants', 'MCDONALD'S', 2, '02-04-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (30, 'eur', 'Fast Food Restaurants', 'SUBWAY', 2, '02-05-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (31, 'eur', 'Grocery Stores/Supermarkets', 'BILLA', 2, '02-06-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (32, 'eur', 'Fast Food Restaurants', 'MCDONALD'S', 2, '02-07-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (33, 'eur', 'Grocery Stores/Supermarkets', 'BILLA', 2, '02-08-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (34, 'eur', 'Grocery Stores/Supermarkets', 'BILLA', 2, '02-09-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (35, 'eur', 'Grocery Stores/Supermarkets', 'TESCO', 2, '02-09-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (36, 'eur', 'Family Clothing Stores', 'H&M', 2, '02-10-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (37, 'eur', 'Grocery Stores/Supermarkets', 'BILLA', 2, '02-10-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (38, 'eur', 'Fast Food Restaurants', 'BURGER KING', 2, '02-11-18', 'Outside Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (39, 'eur', 'Family Clothing Stores', 'TOMMY HILFIGER OUTLET STO', 2, '02-12-18', 'Outside Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (40, 'eur', 'Financial Institutions - Automated Cash Disbursements', 'TB', 2, '02-12-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (41, 'eur', 'Fast Food Restaurants', 'MCDONALD'S', 2, '02-12-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (42, 'eur', 'Fast Food Restaurants', 'SUBWAY', 2, '02-13-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (43, 'eur', 'Fast Food Restaurants', 'BURGER KING', 2, '02-13-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (44, 'eur', 'Grocery Stores/Supermarkets', 'BILLA', 2, '02-13-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (45, 'eur', '', '', 2, '01-06-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (46, 'eur', '', '', 2, '01-06-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (47, 'eur', '', '', 2, '01-06-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (48, 'eur', '', '', 2, '01-17-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (49, 'eur', '', '', 2, '01-22-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (50, 'eur', '', '', 2, '01-24-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (51, 'eur', '', '', 2, '02-01-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (52, 'eur', '', '', 2, '02-04-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (53, 'eur', '', '', 2, '02-07-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (54, 'eur', '', '', 2, '02-12-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (55, 'eur', '', '', 2, '03-29-18', 'Slovakia', 'expense');
