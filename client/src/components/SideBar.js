@@ -32,11 +32,17 @@ class SideBar extends React.Component {
 		            visible={visible}
 		            width='thin'>
 	            	<Menu.Item as='a'>
-	              		<Icon name='home' /> Home</Menu.Item>
+	              		<Icon name='clock outline' /> Activity
+              		</Menu.Item>
 	            	<Menu.Item as='a'>
-	             		<Icon name='gamepad' /> Games</Menu.Item>
+	             		<Icon name='chart bar' /> Statistics
+             		</Menu.Item>
 	            	<Menu.Item as='a'>
-	            		<Icon name='camera' /> Channels</Menu.Item>
+	            		<Icon name='cog' /> Settings
+            		</Menu.Item>
+            		<Menu.Item as='a'>
+	            		<Icon name='trophy' /> Achievements
+            		</Menu.Item>
 	          	</Sidebar>
 
 	          	<Sidebar.Pusher>

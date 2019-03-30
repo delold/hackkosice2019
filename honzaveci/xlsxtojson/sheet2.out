@@ -1,0 +1,112 @@
+[
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-02-18', Country: 'SK', Amount: 6.50, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-02-18', Country: 'SK', Amount: 7.32, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'MCDONALD'S', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-03-18', Country: 'SK', Amount: 10.89, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-05-18', Country: 'SK', Amount: 2.35, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-06-18', Country: 'SK', Amount: 1.40, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'MCDONALD'S', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-07-18', Country: 'SK', Amount: 12.70, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'MCDONALD'S', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-08-18', Country: 'SK', Amount: 9.36, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'SUBWAY', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-10-18', Country: 'SK', Amount: 2.70, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-10-18', Country: 'SK', Amount: 9.78, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'MCDONALD'S', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-11-18', Country: 'SK', Amount: 11.50, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-11-18', Country: 'SK', Amount: 10.78, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'MCDONALD'S', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-12-18', Country: 'SK', Amount: 8.68, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-14-18', Country: 'SK', Amount: 12.25, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'BUBBLEOLOGY', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-16-18', Country: 'SK', Amount: 10.26, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-17-18', Country: 'SK', Amount: 6.38, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'MCDONALD'S', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-19-18', Country: 'SK', Amount: 10.34, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'MCDONALD'S', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-21-18', Country: 'SK', Amount: 7.56, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'MCDONALD'S', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-21-18', Country: 'SK', Amount: 8.26, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-24-18', Country: 'SK', Amount: 10.46, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-24-18', Country: 'SK', Amount: 6.17, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'SUBWAY', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-26-18', Country: 'SK', Amount: 5.69, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-28-18', Country: 'SK', Amount: 4.35, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'MCDONALD'S', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-30-18', Country: 'SK', Amount: 1.52, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-01-18', Country: 'SK', Amount: 3.40, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'MCDONALD'S', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-03-18', Country: 'SK', Amount: 5.19, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-03-18', Country: 'SK', Amount: 5.46, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-04-18', Country: 'SK', Amount: 9.25, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-04-18', Country: 'SK', Amount: 9.97, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-04-18', Country: 'SK', Amount: 8.19, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'MCDONALD'S', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-05-18', Country: 'SK', Amount: 1.78, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'SUBWAY', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-06-18', Country: 'SK', Amount: 3.24, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-07-18', Country: 'SK', Amount: 13.52, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'MCDONALD'S', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-08-18', Country: 'SK', Amount: 4.15, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-09-18', Country: 'SK', Amount: 6.35, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-09-18', Country: 'SK', Amount: 7.68, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'TESCO', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-10-18', Country: 'SK', Amount: 70.00, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Family Clothing Stores', Merchant Name: 'H&M', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-10-18', Country: 'SK', Amount: 13.95, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-11-18', Country: 'AT', Amount: 1.91, Device: 'Terminal', Location: 'Outside Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'BURGER KING', Description: 'PARNDORF'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-12-18', Country: 'AT', Amount: 120.00, Device: 'Terminal', Location: 'Outside Slovakia', Mechant Type: 'Family Clothing Stores', Merchant Name: 'TOMMY HILFIGER OUTLET STO', Description: 'PARNDORF'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-12-18', Country: 'SK', Amount: 80.00, Device: 'ATM', Location: 'Slovakia', Mechant Type: 'Financial Institutions - Automated Cash Disbursements', Merchant Name: 'TB', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-12-18', Country: 'SK', Amount: 1.95, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'MCDONALD'S', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-13-18', Country: 'SK', Amount: 14.48, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'SUBWAY', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-13-18', Country: 'SK', Amount: 4.70, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'BURGER KING', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-13-18', Country: 'SK', Amount: 12.78, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'BILLA', Description: 'BRATISLAVA'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '01-06-18', Country: 'SK', Amount: 55.00, Device: 'VIAMO', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: 'PODPORA'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '01-06-18', Country: 'SK', Amount: 9.64, Device: 'VIAMO', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: 'CIZMY'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '01-06-18', Country: 'SK', Amount: 15.00, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: 'VRECKOVE'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '01-17-18', Country: 'SK', Amount: 6.69, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: 'POISTKA PZP'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '01-22-18', Country: 'SK', Amount: 15.00, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: 'VRECKOVE'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '01-24-18', Country: 'SK', Amount: 8.13, Device: 'VIAMO', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: ''
+ },
+  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '02-01-18', Country: 'SK', Amount: 55.00, Device: 'VIAMO', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: 'PODPORA'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '02-04-18', Country: 'SK', Amount: 280.00, Device: 'Internet banking', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: 'PLAT 12017'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '02-07-18', Country: 'SK', Amount: 15.00, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: 'VRECKOVE'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '02-12-18', Country: 'SK', Amount: 250.00, Device: 'Internet banking', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: 'PLAT 22017'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '03-29-18', Country: 'SK', Amount: 15.00, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: 'VRECKOVE'
+ }
+]

@@ -1,0 +1,90 @@
+[
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-04-18', Country: 'SK', Amount: 18.28, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-09-18', Country: 'SK', Amount: 8.62, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-19-18', Country: 'SK', Amount: 20.47, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Drug Stores & Pharmacies', Merchant Name: 'LEKAREN', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-03-18', Country: 'SK', Amount: 16.15, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Family Clothing Stores', Merchant Name: 'H&M', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '03-02-18', Country: 'SK', Amount: 16.25, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '03-26-18', Country: 'SK', Amount: 10.44, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '04-06-18', Country: 'SK', Amount: 27.52, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Drug Stores & Pharmacies', Merchant Name: 'LEKAREN', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '04-06-18', Country: 'SK', Amount: 2.01, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '04-16-18', Country: 'SK', Amount: 14.16, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'DRACIK', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '04-30-18', Country: 'SK', Amount: 27.38, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '05-08-18', Country: 'SK', Amount: 4.22, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '05-28-18', Country: 'SK', Amount: 24.21, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '06-09-18', Country: 'SK', Amount: 17.08, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '07-04-18', Country: 'SK', Amount: 28.47, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Service Stations', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '07-13-18', Country: 'SK', Amount: 17.86, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '07-25-18', Country: 'SK', Amount: 12.26, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'DRACIK', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '07-25-18', Country: 'SK', Amount: 10.50, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '08-05-18', Country: 'SK', Amount: 20.83, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Drug Stores & Pharmacies', Merchant Name: 'LEKAREN', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '08-12-18', Country: 'SK', Amount: 25.00, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Shoe Stores', Merchant Name: 'CCC', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '08-19-18', Country: 'SK', Amount: 20.00, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Shoe Stores', Merchant Name: 'CCC', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '08-28-18', Country: 'SK', Amount: 200.00, Device: 'ATM', Location: 'Slovakia', Mechant Type: 'Financial Institutions - Automated Cash Disbursements', Merchant Name: 'TB', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '09-09-18', Country: 'SK', Amount: 18.47, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '09-19-18', Country: 'SK', Amount: 23.64, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '10-03-18', Country: 'SK', Amount: 22.10, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '10-13-18', Country: 'SK', Amount: 90.00, Device: 'ATM', Location: 'Slovakia', Mechant Type: 'Financial Institutions - Automated Cash Disbursements', Merchant Name: 'TB', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '10-22-18', Country: 'SK', Amount: 9.59, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '11-05-18', Country: 'SK', Amount: 22.19, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Sports/Riding Apparel Stores', Merchant Name: 'CCC', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '11-19-18', Country: 'SK', Amount: 24.54, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'DRACIK', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '12-02-18', Country: 'SK', Amount: 13.97, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Family Clothing Stores', Merchant Name: 'H&M', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '12-12-18', Country: 'SK', Amount: 14.49, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '12-19-18', Country: 'SK', Amount: 25.63, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Shoe Stores', Merchant Name: 'CCC', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '12-19-18', Country: 'SK', Amount: 23.62, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Book Stores', Merchant Name: 'H&M', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '12-22-18', Country: 'SK', Amount: 7.09, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '12-28-18', Country: 'SK', Amount: 8.68, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Family Clothing Stores', Merchant Name: 'H&M', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-09-19', Country: 'SK', Amount: 7.34, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
+ },
+  { Type: 'Card', Debit/Credit: 'Debit', Date: '12-27-18', Country: 'SK', Amount: 24.13, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Grocery Stores/Supermarkets', Merchant Name: 'LIDL', Description: 'BRATISLAVA'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '02-16-18', Country: 'SK', Amount: 21.27, Device: 'Internet banking', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: 'ROZPRAVKOVA  NEMCINA'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '03-14-18', Country: 'SK', Amount: 283.76, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '"URAD PRACE', Description: ' SOCIALNYCH VECI A RODINY ZILINA"', : 'PRIDAVKY NA DIETA A MATERSKA'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '04-10-18', Country: 'SK', Amount: 12.56, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '"SLOVENSKA POSTA', Description: ' A.S."', : ''
+ },
+  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '05-22-18', Country: 'SK', Amount: 28.84, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '"SLOVENSKA POSTA', Description: ' A.S."', : ''
+ },
+  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '06-18-18', Country: 'SK', Amount: 28.57, Device: 'Internet banking', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: 'ROZPRAVKOVA  NEMCINA'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '06-30-18', Country: 'SK', Amount: 283.76, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '"URAD PRACE', Description: ' SOCIALNYCH VECI A RODINY ZILINA"', : 'PRIDAVKY NA DIETA A MATERSKA'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '01-17-19', Country: 'SK', Amount: 283.76, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '"URAD PRACE', Description: ' SOCIALNYCH VECI A RODINY ZILINA"', : 'PRIDAVKY NA DIETA A MATERSKA'
+ },
+  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '01-18-19', Country: 'SK', Amount: 8.64, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '"SLOVENSKA POSTA', Description: ' A.S."', : ''
+ }
+]
