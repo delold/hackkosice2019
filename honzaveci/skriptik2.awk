@@ -2,19 +2,18 @@
 
 #expects .csv file
 
-if [ "$#" -ne 2 ]; then
+if [ "$#" -ne 3 ]; then
   echo "Wrong number of arguments"
   exit;
 fi
 
-cat "$1".csv | awk -v NUM="$2" '
+cat "$1".csv | awk -v NUM="$2" -v ID="$3" '
 BEGIN{
 
   FS=","
   RS="\n"
 
   check=0;
-  INC=1;
 
   
 }
@@ -37,9 +36,9 @@ BEGIN{
       $3 = "";
 
 
-    printf "insert into transcation (id, currency, category, description, user_id, date, location, type)\n";
-    printf "values (%d, '\''eur'\'', '\''%s'\'', '\''%s'\'', %d, '\''%s'\'', '\''%s'\'', '\''%s'\'');\n", INC, $8, $9, NUM, $3, $7, "expense";
-    INC+=1;
+    printf "insert into transcation (id, currency, category, description, user_id, date, location, type, amount)\n";
+    printf "values (%d, '\''eur'\'', '\''%s'\'', '\''%s'\'', %d, '\''%s'\'', '\''%s'\'', '\''%s'\'', %d);\n", ID, $8, $9, NUM, $3, $7, "expense",$5;
+    ID+=1;
    
   }
   check += 1;

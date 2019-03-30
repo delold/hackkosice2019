@@ -1,100 +1,100 @@
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (1, 'eur', 'Restaurants', 'U ZLATEHO VODNIKA', 1, '01-01-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (2, 'eur', 'Financial Institutions - Automated Cash Disbursements', 'TB', 1, '01-03-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (3, 'eur', 'Restaurants', 'U ZLATEHO VODNIKA', 1, '01-06-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (4, 'eur', 'Taxicabs/Limousines', 'UBER BV', 1, '01-08-18', 'Outside Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (5, 'eur', 'Restaurants', 'GEORGES CAFE', 1, '01-11-18', 'Outside Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (6, 'eur', 'Restaurants', 'U ZLATEHO VODNIKA', 1, '01-15-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (7, 'eur', 'Drug Stores & Pharmacies', 'BENU SK', 1, '01-16-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (8, 'eur', 'Restaurants', 'U ZLATEHO VODNIKA', 1, '01-18-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (9, 'eur', 'Jewelry Stores', '"ALO DIAMONDS', 1, '01-19-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (10, 'eur', 'Taxicabs/Limousines', 'UBER BV', 1, '01-19-18', 'Outside Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (11, 'eur', 'Misc Food Stores - Default', 'STARY OTEC', 1, '01-19-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (12, 'eur', 'Restaurants', 'GEORGES CAFE', 1, '01-21-18', 'Outside Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (13, 'eur', 'Taxicabs/Limousines', 'UBER BV', 1, '01-21-18', 'Outside Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (14, 'eur', 'Dentists/Orthodontists', 'MARTIN DENTAL CENTER S.R.', 1, '01-23-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (15, 'eur', 'Restaurants', 'U ZLATEHO VODNIKA', 1, '01-25-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (16, 'eur', 'Restaurants', 'U ZLATEHO VODNIKA', 1, '01-28-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (17, 'eur', 'Clothing', 'SVADOBNY SALON', 1, '01-29-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (18, 'eur', 'Restaurants', 'GEORGES CAFE', 1, '02-01-18', 'Outside Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (19, 'eur', 'Drug Stores & Pharmacies', 'BENU SK', 1, '02-03-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (20, 'eur', 'Restaurants', 'U ZLATEHO VODNIKA', 1, '02-04-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (21, 'eur', 'Restaurants', 'U ZLATEHO VODNIKA', 1, '02-05-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (22, 'eur', 'Taxicabs/Limousines', 'UBER BV', 1, '02-05-18', 'Outside Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (23, 'eur', 'Restaurants', 'GEORGES CAFE', 1, '02-08-18', 'Outside Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (24, 'eur', 'Restaurants', 'GEORGES CAFE', 1, '02-10-18', 'Outside Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (25, 'eur', 'Restaurants', 'GEORGES CAFE', 1, '02-12-18', 'Outside Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (26, 'eur', 'Restaurants', 'GEORGES CAFE', 1, '02-14-18', 'Outside Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (27, 'eur', 'Restaurants', 'GEORGES CAFE', 1, '02-15-18', 'Outside Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (28, 'eur', 'Taxicabs/Limousines', 'UBER BV', 1, '02-17-18', 'Outside Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (29, 'eur', 'Misc Food Stores - Default', 'STARY OTEC', 1, '02-19-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (30, 'eur', 'Misc Food Stores - Default', 'STARY OTEC', 1, '02-24-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (31, 'eur', 'Taxicabs/Limousines', 'UBER BV', 1, '02-24-18', 'Outside Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (32, 'eur', 'Grocery Stores/Supermarkets', 'BILLA', 1, '03-02-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (33, 'eur', 'Grocery Stores/Supermarkets', 'BILLA', 1, '03-03-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (34, 'eur', 'Grocery Stores/Supermarkets', 'BILLA', 1, '03-09-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (35, 'eur', 'Grocery Stores/Supermarkets', 'BILLA', 1, '03-28-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (36, 'eur', '', '', 1, '01-07-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (37, 'eur', '', '"ZSE ENERGIA', 1, '01-12-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (38, 'eur', '', '', 1, '01-15-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (39, 'eur', '', '', 1, '01-21-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (40, 'eur', '', '', 1, '01-28-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (41, 'eur', '', 'RTVS', 1, '02-03-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (42, 'eur', '', '', 1, '02-14-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (43, 'eur', '', '"ZSE ENERGIA', 1, '02-21-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (44, 'eur', '', '', 1, '02-27-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (45, 'eur', '', 'ROZHLAS A TELEVIZIA SLOVENSKA', 1, '03-06-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (46, 'eur', '', '', 1, '03-12-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (47, 'eur', 'Grocery Stores/Supermarkets', 'BILLA', 1, '01-01-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (48, 'eur', '', '', 1, '02-04-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (49, 'eur', '', '', 1, '02-11-18', 'Slovakia', 'expense');
-insert into transcation (id, currency, category, description, user_id, date, location, type)
-values (50, 'eur', '', '', 1, '03-02-18', 'Slovakia', 'expense');
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (1, 'eur', 'Restaurants', 'U ZLATEHO VODNIKA', 1, '01-01-18', 'Slovakia', 'expense', 76);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (2, 'eur', 'Financial Institutions - Automated Cash Disbursements', 'TB', 1, '01-03-18', 'Slovakia', 'expense', 100);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (3, 'eur', 'Restaurants', 'U ZLATEHO VODNIKA', 1, '01-06-18', 'Slovakia', 'expense', 113);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (4, 'eur', 'Taxicabs/Limousines', 'UBER BV', 1, '01-08-18', 'Outside Slovakia', 'expense', 111);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (5, 'eur', 'Restaurants', 'GEORGES CAFE', 1, '01-11-18', 'Outside Slovakia', 'expense', 132);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (6, 'eur', 'Restaurants', 'U ZLATEHO VODNIKA', 1, '01-15-18', 'Slovakia', 'expense', 146);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (7, 'eur', 'Drug Stores & Pharmacies', 'BENU SK', 1, '01-16-18', 'Slovakia', 'expense', 14);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (8, 'eur', 'Restaurants', 'U ZLATEHO VODNIKA', 1, '01-18-18', 'Slovakia', 'expense', 4);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (9, 'eur', 'Jewelry Stores', '"ALO DIAMONDS', 1, '01-19-18', 'Slovakia', 'expense', 1500);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (10, 'eur', 'Taxicabs/Limousines', 'UBER BV', 1, '01-19-18', 'Outside Slovakia', 'expense', 63);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (11, 'eur', 'Misc Food Stores - Default', 'STARY OTEC', 1, '01-19-18', 'Slovakia', 'expense', 48);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (12, 'eur', 'Restaurants', 'GEORGES CAFE', 1, '01-21-18', 'Outside Slovakia', 'expense', 26);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (13, 'eur', 'Taxicabs/Limousines', 'UBER BV', 1, '01-21-18', 'Outside Slovakia', 'expense', 14);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (14, 'eur', 'Dentists/Orthodontists', 'MARTIN DENTAL CENTER S.R.', 1, '01-23-18', 'Slovakia', 'expense', 93);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (15, 'eur', 'Restaurants', 'U ZLATEHO VODNIKA', 1, '01-25-18', 'Slovakia', 'expense', 144);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (16, 'eur', 'Restaurants', 'U ZLATEHO VODNIKA', 1, '01-28-18', 'Slovakia', 'expense', 118);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (17, 'eur', 'Clothing', 'SVADOBNY SALON', 1, '01-29-18', 'Slovakia', 'expense', 500);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (18, 'eur', 'Restaurants', 'GEORGES CAFE', 1, '02-01-18', 'Outside Slovakia', 'expense', 114);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (19, 'eur', 'Drug Stores & Pharmacies', 'BENU SK', 1, '02-03-18', 'Slovakia', 'expense', 91);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (20, 'eur', 'Restaurants', 'U ZLATEHO VODNIKA', 1, '02-04-18', 'Slovakia', 'expense', 138);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (21, 'eur', 'Restaurants', 'U ZLATEHO VODNIKA', 1, '02-05-18', 'Slovakia', 'expense', 137);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (22, 'eur', 'Taxicabs/Limousines', 'UBER BV', 1, '02-05-18', 'Outside Slovakia', 'expense', 103);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (23, 'eur', 'Restaurants', 'GEORGES CAFE', 1, '02-08-18', 'Outside Slovakia', 'expense', 71);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (24, 'eur', 'Restaurants', 'GEORGES CAFE', 1, '02-10-18', 'Outside Slovakia', 'expense', 66);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (25, 'eur', 'Restaurants', 'GEORGES CAFE', 1, '02-12-18', 'Outside Slovakia', 'expense', 77);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (26, 'eur', 'Restaurants', 'GEORGES CAFE', 1, '02-14-18', 'Outside Slovakia', 'expense', 95);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (27, 'eur', 'Restaurants', 'GEORGES CAFE', 1, '02-15-18', 'Outside Slovakia', 'expense', 130);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (28, 'eur', 'Taxicabs/Limousines', 'UBER BV', 1, '02-17-18', 'Outside Slovakia', 'expense', 143);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (29, 'eur', 'Misc Food Stores - Default', 'STARY OTEC', 1, '02-19-18', 'Slovakia', 'expense', 4);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (30, 'eur', 'Misc Food Stores - Default', 'STARY OTEC', 1, '02-24-18', 'Slovakia', 'expense', 1);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (31, 'eur', 'Taxicabs/Limousines', 'UBER BV', 1, '02-24-18', 'Outside Slovakia', 'expense', 67);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (32, 'eur', 'Grocery Stores/Supermarkets', 'BILLA', 1, '03-02-18', 'Slovakia', 'expense', 127);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (33, 'eur', 'Grocery Stores/Supermarkets', 'BILLA', 1, '03-03-18', 'Slovakia', 'expense', 45);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (34, 'eur', 'Grocery Stores/Supermarkets', 'BILLA', 1, '03-09-18', 'Slovakia', 'expense', 54);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (35, 'eur', 'Grocery Stores/Supermarkets', 'BILLA', 1, '03-28-18', 'Slovakia', 'expense', 8);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (36, 'eur', '', '', 1, '01-07-18', 'Slovakia', 'expense', 120);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (37, 'eur', '', '"ZSE ENERGIA', 1, '01-12-18', 'Slovakia', 'expense', 20);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (38, 'eur', '', '', 1, '01-15-18', 'Slovakia', 'expense', 1500);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (39, 'eur', '', '', 1, '01-21-18', 'Slovakia', 'expense', 39);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (40, 'eur', '', '', 1, '01-28-18', 'Slovakia', 'expense', 50);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (41, 'eur', '', 'RTVS', 1, '02-03-18', 'Slovakia', 'expense', 117);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (42, 'eur', '', '', 1, '02-14-18', 'Slovakia', 'expense', 1500);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (43, 'eur', '', '"ZSE ENERGIA', 1, '02-21-18', 'Slovakia', 'expense', 20);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (44, 'eur', '', '', 1, '02-27-18', 'Slovakia', 'expense', 74);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (45, 'eur', '', 'ROZHLAS A TELEVIZIA SLOVENSKA', 1, '03-06-18', 'Slovakia', 'expense', 4);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (46, 'eur', '', '', 1, '03-12-18', 'Slovakia', 'expense', 500);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (47, 'eur', 'Grocery Stores/Supermarkets', 'BILLA', 1, '01-01-18', 'Slovakia', 'expense', 58);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (48, 'eur', '', '', 1, '02-04-18', 'Slovakia', 'expense', 91);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (49, 'eur', '', '', 1, '02-11-18', 'Slovakia', 'expense', 3000);
+insert into transcation (id, currency, category, description, user_id, date, location, type, amount)
+values (50, 'eur', '', '', 1, '03-02-18', 'Slovakia', 'expense', 100);

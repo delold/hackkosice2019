@@ -1,5 +1,7 @@
 #!/bin/bash
 
+INC=1
+
 if [ "$#" -ne 2 ]; then
   echo "Wrong number of arguments"
   exit
@@ -10,5 +12,7 @@ for (( i=1; i<="$2"; i++ )) do
 done
 
 for (( i=1; i<="$2"; i++ )) do 
-  ./skriptik2.awk sheet"$i" "$i"
+  ./skriptik2.awk sheet"$i" "$i" "$INC"
+  ADD=$(cat sheet"$i".csv | wc -l )
+  INC=$((INC+ADD-1))
 done
