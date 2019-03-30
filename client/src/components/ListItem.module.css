@@ -7,10 +7,16 @@
   
 }
 
+.detail {
+  color: #a3a3a3;
+}
 .content {
   flex-grow: 1;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  font-size: 1.3em;
 
   padding: 1rem;
 }
