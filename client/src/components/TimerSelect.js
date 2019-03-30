@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import './TimerSelect.module.css'
-import { Button } from 'semantic-ui-react'
+import styles from './TimerSelect.module.css'
+import { Input, Button } from 'semantic-ui-react'
 
 class TimerSelect extends React.Component{
 
