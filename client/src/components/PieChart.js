@@ -4,13 +4,8 @@ import moment from 'moment'
 
 import { PieChart, Pie } from 'recharts'
 
-const data01 = [
-  { value: 400 },
-  { value: 30 },
-]
-
 const formatDuration = (timestamp) => {
-  let rounded = Math.floor(timestamp / 1000)
+  let rounded = Math.floor(Math.abs(timestamp) / 1000)
   const seconds = rounded % 60
 
   rounded = Math.floor(rounded / 60)
@@ -19,9 +14,10 @@ const formatDuration = (timestamp) => {
   rounded = Math.floor(rounded / 60)
   const hours = rounded % 24
 
-  const pad = (str) => str > 9 ? str : `0${str}`
+  const pad = (str) => Math.abs(str) > 9 ? Math.abs(str) : `0${Math.abs(str)}`
+  const final = [pad(hours), pad(minutes), pad(seconds)].join(':')
 
-  return [pad(hours), pad(minutes), pad(seconds)].join(':')
+  return timestamp < 0 ? `-${final}` : final
 }
 
 
@@ -44,7 +40,7 @@ const useInterval = () => {
   useEffect(() => {
     if (start) {
       const nextTimestamp = Math.floor((timestamp / 1000) + 1) * 1000
-      const delay = (timestamp + 1000) - nextTimestamp
+      const delay = (start - timestamp === 0) ? 0 : (timestamp + 1000) - nextTimestamp
 
       setTimeout(() => setTimestamp(nextTimestamp), delay)
     }
@@ -55,10 +51,11 @@ const useInterval = () => {
 
 
 
-const PieComponent = ({ debt }) => {
+const PieComponent = ({ items = [], perHour }) => {
   const [delay, toggle] = useInterval()
 
-  console.log(delay)
+  const remaining = (items.reduce((memo, { amount }) => memo + amount, 0) / perHour) * 60 * 60 * 1000
+  const difference = remaining + delay
 
   const width = 300
   const height = 300
@@ -67,20 +64,22 @@ const PieComponent = ({ debt }) => {
       <PieChart width={width} height={height}>
         <Pie
           dataKey="value"
-          data={data01}
+          data={[{ value: 100 }]}
+          startAngle={0}
+          endAngle={Math.abs(Math.min(360, Math.max(0, (remaining - difference) / remaining)) * 360)}
           cx={width / 2 - 6}
           cy={height / 2 - 6}
           paddingAngle={0}
           innerRadius={100}
           outerRadius={120}
-          fill="#F44336"
+          fill={difference < 0 ? "#F44336" : "#8BC34A"}
         />
       </PieChart>
     </div>
     <div className={styles.inside} onClick={toggle}>
-      <span className={styles.description}>You are working for</span>
+      <span className={styles.description}>{difference < 0 ? 'You need to work' : 'You are over'}</span>
       <div className={styles.hours}>
-        {formatDuration(delay)}
+        {formatDuration(Math.abs(difference))}
       </div>
       <span className={styles.active}>hours</span>
     </div>
