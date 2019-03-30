@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import styles from './TimerSelect.module.css'
+import './TimerSelect.module.css'
+import { Button } from 'semantic-ui-react'
 
 class TimerSelect extends React.Component{
 
@@ -7,12 +8,12 @@ class TimerSelect extends React.Component{
 
 	render(){
 		return(
-			<div>
-				<input name = "hours" type="text" value = "00"/>
-				:
-				<input name = "minutes" type="text" value = "00"/> 
+			<div className="ui input">
+				<input name = "hours" type="text" defaultValue = "00"/>
+				<label> : </label>
+				<input name = "minutes" type="text" defaultValue = "00"/> 
 				<div>
-					<button type="button"> START </button>
+					<button className="ui button" type="button"> START </button>
 				</div>
 			</div>
 		)
@@ -21,3 +22,5 @@ class TimerSelect extends React.Component{
 
 
 export default TimerSelect; 
+
+
