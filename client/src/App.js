@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './App.css'
 
 import PieChart from './components/PieChart'
 import List from './components/List'

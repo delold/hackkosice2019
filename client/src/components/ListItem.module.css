@@ -1,3 +1,21 @@
 .item {
+  display: flex;
+  margin: 1rem;
+}
+
+.image {
   
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+
+  padding: 1rem;
+}
+.amount {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

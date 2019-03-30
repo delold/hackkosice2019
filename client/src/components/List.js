@@ -12,7 +12,7 @@ const defaultItems = [
 const List = ({ items = defaultItems }) => {
   return (
     <div className={styles.list}>
-      {items.map(item => <ListItem {...item} />)}
+      {items.map(item => <ListItem {...item} perHour={210} />)}
     </div>
   )
 }

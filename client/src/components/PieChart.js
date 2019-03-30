@@ -22,7 +22,7 @@ const PieComponent = () => {
           paddingAngle={0}
           innerRadius={100}
           outerRadius={120}
-          fill="#8884d8"
+          fill="#F44336"
         />
       </PieChart>
     </div>

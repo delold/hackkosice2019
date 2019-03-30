@@ -7,7 +7,7 @@ import { getCategoryColor, getCategoryImage } from '../utils/color';
 
 const ListItem = ({ category, amount, perHour, currency = 'EUR' }) => {
   return (
-    <div>
+    <div className={styles.item}>
       <div className={styles.image}>
         <CategoryImage image={getCategoryImage(category)} color={getCategoryColor(category)} />
       </div>
