@@ -1,20 +1,18 @@
-[
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-11-18', Country: 'SK', Amount: 2.00, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'BUBBLEOLOGY', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '01-23-18', Country: 'SK', Amount: 10.00, Device: 'ATM', Location: 'Slovakia', Mechant Type: 'Financial Institutions - Automated Cash Disbursements', Merchant Name: 'TB', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-08-18', Country: 'SK', Amount: 10.00, Device: 'ATM', Location: 'Slovakia', Mechant Type: 'Financial Institutions - Automated Cash Disbursements', Merchant Name: 'TB', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-21-18', Country: 'SK', Amount: 2.50, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'BUBBLEOLOGY', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '02-25-18', Country: 'SK', Amount: 10.00, Device: 'ATM', Location: 'Slovakia', Mechant Type: 'Financial Institutions - Automated Cash Disbursements', Merchant Name: 'TB KASTIELSKA', Description: 'BRATISLAVA'
- },
-  { Type: 'Card', Debit/Credit: 'Debit', Date: '03-21-18', Country: 'SK', Amount: 2.50, Device: 'Terminal', Location: 'Slovakia', Mechant Type: 'Fast Food Restaurants', Merchant Name: 'BUBBLEOLOGY', Description: 'BRATISLAVA'
- },
-  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '01-10-18', Country: 'SK', Amount: 10.00, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: 'VRECKOVE'
- },
-  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '01-28-18', Country: 'SK', Amount: 15.00, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: 'VRECKOVE'
- },
-  { Type: 'Transfer', Debit/Credit: 'Credit', Date: '02-22-18', Country: 'SK', Amount: 15.00, Device: '', Location: 'Slovakia', Mechant Type: '', Merchant Name: '', Description: 'VRECKOVE'
- }
-]
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (0, 'eur', 'Fast Food Restaurants', 'BUBBLEOLOGY', 0, '01-11-18', 'Slovakia', 'expense')
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (1, 'eur', 'Financial Institutions - Automated Cash Disbursements', 'TB', 0, '01-23-18', 'Slovakia', 'expense')
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (2, 'eur', 'Financial Institutions - Automated Cash Disbursements', 'TB', 0, '02-08-18', 'Slovakia', 'expense')
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (3, 'eur', 'Fast Food Restaurants', 'BUBBLEOLOGY', 0, '02-21-18', 'Slovakia', 'expense')
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (4, 'eur', 'Financial Institutions - Automated Cash Disbursements', 'TB KASTIELSKA', 0, '02-25-18', 'Slovakia', 'expense')
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (5, 'eur', 'Fast Food Restaurants', 'BUBBLEOLOGY', 0, '03-21-18', 'Slovakia', 'expense')
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (6, 'eur', '', '', 0, '01-10-18', 'Slovakia', 'expense')
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (7, 'eur', '', '', 0, '01-28-18', 'Slovakia', 'expense')
+insert into transcation (id, currency, category, description, user_id, date, location, type)
+values (8, 'eur', '', '', 0, '02-22-18', 'Slovakia', 'expense')
