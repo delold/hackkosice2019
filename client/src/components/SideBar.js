@@ -21,7 +21,9 @@ class SideBar extends React.Component {
     	return (
       		<div>
         		<Button.Group>
+
           			<Button onClick={this.handleShowClick}>
+         				<Icon name='bars'/>
             			Show sidebar
           			</Button>
         		</Button.Group>
@@ -37,18 +39,27 @@ class SideBar extends React.Component {
 		            visible={visible}
 		            width='thin'>
 
+		            <Menu.Item as='a'>
+	             		<Icon name='pie chart' />
+	             		<span className="input-group-btn">
+						  <Link to="/" style={{ color: '#FFF' }}>Overview</Link>
+						</span>
+             		</Menu.Item>
+
 	            	<Menu.Item as='a'>
-	             		<Icon name='chart bar' /> Statistics
+	             		<Icon name='chart bar' />
 	             		<span className="input-group-btn">
 						  <Link to="/statistics" style={{ color: '#FFF' }}>Statistics</Link>
 						</span>
              		</Menu.Item>
+
 	            	<Menu.Item as='a'>
 	            		<Icon name='cog' />
 	            		<span className="input-group-btn">
 						  <Link to="/settings" style={{ color: '#FFF' }}>Settings</Link>
 						</span>
             		</Menu.Item>
+
             		<Menu.Item as='a'>
 	            		<Icon name='trophy' />
 	            			<span className="input-group-btn">
