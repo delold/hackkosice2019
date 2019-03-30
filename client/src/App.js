@@ -4,24 +4,24 @@ import './App.css'
 
 import PieChart from './components/PieChart'
 import List from './components/List'
+
 import Settings from './components/Settings'
 import SideBar from './components/SideBar'
 
+import TimerSelect from './components/TimerSelect'
+
+
 class App extends Component {
   render() {
-    return (
-      
-        
+    return (        
 		<SideBar>
 			<div className="App">
 	        	<PieChart />
+	        	<TimerSelect />
 	        	<List />
-	        	<Settings />
 	      	</div>
         </SideBar>
-      
-    );
-  }
+  	}
 }
 
 export default App;
