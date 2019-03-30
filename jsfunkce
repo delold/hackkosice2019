@@ -1,3 +1,0 @@
-function money_to_time( average_income, hours_count ){
-  return average_income/hours_count;
-}
