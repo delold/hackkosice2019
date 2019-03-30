@@ -10,15 +10,22 @@ import SideBar from './components/SideBar'
 
 import TimerSelect from './components/TimerSelect'
 
+import moment from 'moment'
+import { createTransactionModel } from './utils/transaction'
+
+const defaultItems = [
+  createTransactionModel({ id: 0 }),
+]
+
 
 class App extends Component {
 	  render() {
 	    return (        
 			<SideBar>
 				<div className="App">
-		        	<PieChart />
+		        	<PieChart items={defaultItems} perHour={210} />
 		        	<TimerSelect />
-		        	<List />
+		        	<List items={defaultItems} perHour={210} />
 		      	</div>
 	        </SideBar>
 	    );
