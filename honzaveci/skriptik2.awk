@@ -38,7 +38,7 @@ BEGIN{
 
 
     printf "insert into transcation (id, currency, category, description, user_id, date, location, type)\n";
-    printf "values (%d, '\''eur'\'', '\''%s'\'', '\''%s'\'', %d, '\''%s'\'', '\''%s'\'', '\''%s'\'')\n", INC, $8, $9, NUM, $3, $7, "expense";
+    printf "values (%d, '\''eur'\'', '\''%s'\'', '\''%s'\'', %d, '\''%s'\'', '\''%s'\'', '\''%s'\'');\n", INC, $8, $9, NUM, $3, $7, "expense";
     INC+=1;
    
   }
