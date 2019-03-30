@@ -1,6 +1,7 @@
 import React from 'react';
 import Canvas from 'react-chartjs-2';
 import {Button} from 'semantic-ui-react';
+import SideBar from './SideBar'
 
 class Statistics extends React.Component{
 
@@ -19,16 +20,16 @@ class Statistics extends React.Component{
 
 	render(){
 		return (
-			<div>
-			 <Button.Group>
-			    	<Button>D</Button>
-			    	<Button>W</Button>
-			    	<Button>M</Button>
-			    	<Button>Y</Button>
-			  </Button.Group>
+			<SideBar>
+				<Button.Group>
+					<Button>D</Button>
+					<Button>W</Button>
+					<Button>M</Button>
+					<Button>Y</Button>
+				</Button.Group>
 
-			   <Canvas options={this.state.graph} />
-			</div>
+				<Canvas options={this.state.graph} />
+			</SideBar>
 		);
 	};
 };

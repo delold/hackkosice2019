@@ -10,6 +10,7 @@ import List from './components/List'
 import Settings from './components/Settings'
 import SideBar from './components/SideBar'
 
+import AddButton from './components/AddButton'
 import TimerSelect from './components/TimerSelect'
 
 import moment from 'moment'
@@ -23,14 +24,18 @@ const defaultItems = [
 
 class App extends Component {
 	  render() {
-	    return (        
-			<SideBar>
-				<div className="App">
-		        	<PieChart items={defaultItems} perHour={210} />
-		        	<TimerSelect />
-		        	<List items={defaultItems} perHour={210} />
-		      	</div>
-	        </SideBar>
+	    return (   
+	    	<div>     
+				<SideBar>
+					
+			        <AddButton />
+					<div className="App">
+			        	<PieChart items={defaultItems} perHour={210} />
+			        	<TimerSelect />
+			        	<List items={defaultItems} perHour={210} />
+			      	</div>
+		        </SideBar>
+	    	</div>
 	    );
 	}
 }
