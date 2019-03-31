@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useContext, useRef } from 'react'
 import styles from './PieChart.module.css'
 import moment from 'moment'
-import { Button, Input } from 'semantic-ui-react';
 import { context } from '../context'
 import { createTransactionModel } from '../utils/transaction'
 
@@ -46,7 +45,6 @@ const useInterval = () => {
   
   useEffect(() => {
     if (start) {
-      // setTimeout(() => setTimestamp(timestamp + 1000), 0)
       setTimeout(() => setTimestamp(timestamp + 1000), 1000 - (timestamp % 1000))
     }
   });
@@ -82,11 +80,24 @@ const PieComponent = ({ items = [], perHour }) => {
           paddingAngle={0}
           innerRadius={100}
           outerRadius={120}
+          strokeWidth={0}
         >
           {
             data.map((_, index) => <Cell key={`cell-${index}`} fill={COLORS[index]} />)
           }
         </Pie>
+        <Pie
+          dataKey="value"
+          data={[{value: 1}]}
+          cx={width / 2 - 6}
+          cy={height / 2 - 6}
+          paddingAngle={0}
+          innerRadius={100}
+          outerRadius={120}
+          isAnimationActive={false}
+          strokeWidth={0}
+          fill="#3c1b26"
+        />
       </PieChart>
     </div>
     <div className={styles.inside} onClick={toggle}>
