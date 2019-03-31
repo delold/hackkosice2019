@@ -23,8 +23,10 @@ const Settings = () => {
 				if (type === 'monthly') {
 					perHour /= 168 * 4
 				}
-							
-				instance.setPerHour(perHour)
+
+				if (perHour > 0) {
+					instance.setPerHour(perHour)
+				}
 			}}>
 				<Form.Group widths="equal">
 					<Form.Field>

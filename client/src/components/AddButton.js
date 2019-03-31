@@ -39,7 +39,7 @@ const AddButton = () => {
 					setLoading(true)
 					const payload = {
 						type,
-						amount: Number.parseFloat(amount),
+						amount: Math.abs(Number.parseFloat(amount)),
 						description: '',
 						author_id: 0,
 						date: moment(date).format('YYYY-MM-DD HH:mm:ss'),
@@ -51,6 +51,10 @@ const AddButton = () => {
 							currency,
 							category,
 						})
+
+						if (type === 'expense') {
+							payload.amount *= -1
+						}
 					} else {
 						payload.category = "Work"
 						payload.amount *= instance.getPerHour() 
