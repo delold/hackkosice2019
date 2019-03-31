@@ -17,24 +17,24 @@ class SideBar extends React.Component {
     	const { visible } = this.state
 
     	return (
-      		<div>
-        		<Button.Group>
-							<Button onClick={this.handleShowClick}>
-         				<Icon name='bars'/>
-            			Show sidebar
-          			</Button>
-        		</Button.Group>
+				<>
+				<div className={styles.menu} onClick={this.handleShowClick}>
+					<Icon name='bars' size="large" />
+				</div>
 
-        	<Sidebar.Pushable className={styles.sidebarcontainer}>
-	          	<Sidebar
-		            as={Menu}
-		            animation='overlay'
-		            icon='labeled'
-		            inverted
-		            onHide={this.handleSidebarHide}
-		            vertical
-		            visible={visible}
-		            width='thin'>
+				<Sidebar.Pushable className={styles.sidebarcontainer}>
+					<div className={styles.menuWrap}>
+						<Sidebar
+							as={Menu}
+							animation='overlay'
+							icon='labeled'
+							inverted
+							onHide={this.handleSidebarHide}
+							vertical
+							visible={visible}
+							width='thin'>
+
+							<div className={styles.content}>
 
 								<Link to="/" style={{ color: '#FFF' }}>
 									<Menu.Item as='a'>
@@ -60,7 +60,7 @@ class SideBar extends React.Component {
 									</Menu.Item>
 								</Link>
 
-							  <Link to="/achievements" style={{ color: '#FFF' }}>
+								<Link to="/achievements" style={{ color: '#FFF' }}>
 									<Menu.Item as='a'>
 										<Icon name='trophy' />
 										<span className="input-group-btn">
@@ -68,13 +68,17 @@ class SideBar extends React.Component {
 										</span>
 									</Menu.Item>
 								</Link>
-	          	</Sidebar>
+							</div>
+						</Sidebar>
+					</div>
 
-	          	<Sidebar.Pusher>
-	              	{this.props.children}
-	          	</Sidebar.Pusher>
-	        </Sidebar.Pushable>
-      </div>
+					<Sidebar.Pusher>
+						<div className={styles.sidebarContent}>
+							{this.props.children}
+						</div>
+					</Sidebar.Pusher>
+				</Sidebar.Pushable>
+      </>
     )
   }
 }

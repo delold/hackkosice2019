@@ -1,3 +1,21 @@
 .sidebarcontainer{
 	min-height: 100vh;
 }
+
+.menu {
+	position: fixed;
+	padding: 1rem;
+	z-index: 999;
+}
+
+.content {
+	padding-top: 4rem;
+}
+
+.menuWrap > * {
+	background-color: #2a2a2a !important;
+}
+
+.sidebarContent {
+	padding-top: 4rem;
+}

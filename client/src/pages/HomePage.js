@@ -16,11 +16,11 @@ const HomePage = () => {
 
 	console.log(transactions, perHour)
 	return (
-		<>
+		<div className={styles.home}>
 			<AddButton />
 			<PieChart items={transactions} perHour={perHour} />
 			<List items={transactions} perHour={perHour} />
-		</>
+		</div>
 	)
 }
 
