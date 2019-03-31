@@ -1,7 +1,9 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect, useContext, useRef } from 'react'
 import styles from './PieChart.module.css'
 import moment from 'moment'
 import { Button, Input } from 'semantic-ui-react';
+import { context } from '../context'
+import { createTransactionModel } from '../utils/transaction'
 
 import { PieChart, Pie, Cell } from 'recharts'
 
@@ -21,6 +23,7 @@ const formatDuration = (timestamp) => {
 
 const useInterval = () => {
   const ref = useRef()
+  const instance = useContext(context)
 
   const [start, setStart] = useState(null)
   const [timestamp, setTimestamp] = useState(null)
@@ -31,14 +34,20 @@ const useInterval = () => {
       setTimestamp(now)
       setStart(now)
     } else {
+      instance.addTransaction(createTransactionModel({
+        type: 'timer',
+        amount: instance.getPerHour() * ((timestamp - start) / (1000 * 60 * 60)),
+        category: 'Work',
+      }))
+
       setStart(null)
     }
   }
   
   useEffect(() => {
     if (start) {
-      setTimeout(() => setTimestamp(timestamp + 1000), 0)
-      // setTimeout(() => setTimestamp(timestamp + 1000), 1000 - (timestamp % 1000))
+      // setTimeout(() => setTimestamp(timestamp + 1000), 0)
+      setTimeout(() => setTimestamp(timestamp + 1000), 1000 - (timestamp % 1000))
     }
   });
 
@@ -47,7 +56,7 @@ const useInterval = () => {
 
 const COLORS = ['#8BC34A', '#F44336']
 
-const PieComponent = ({ items = [], perHour, addTimer }) => {
+const PieComponent = ({ items = [], perHour }) => {
   const [delay, toggle] = useInterval()
 
   const source = (items.reduce((memo, { amount, type }) => type !== 'timer' && memo + amount, 0) / perHour) * 60 * 60 * 1000
@@ -88,12 +97,8 @@ const PieComponent = ({ items = [], perHour, addTimer }) => {
       <span className={styles.active}>hours</span>
     </div>
     <div className={styles.controls}>
+      {!delay && <Input type="time" />}
       <Button onClick={toggle}>{delay ? 'Stop' : 'Start'}</Button>
-      {!delay && <>
-        <span></span>
-        <Input type="time" />
-        <Button>Přidat</Button>
-      </>}
     </div>
   </div>
 }
