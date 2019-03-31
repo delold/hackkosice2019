@@ -2,10 +2,10 @@ import React from 'react'
 import { Item } from 'semantic-ui-react'
 
 const AchievementSingle = (props) => (
-    <Item>
-      <Item.Image size={props.size} src={props.image} />
-      <Item.Content content={props.content} verticalAlign='middle' style={{textAlign: 'left'}} />
-    </Item>
+  <Item>
+    <Item.Image size={props.size} src={props.image} />
+    <Item.Content content={props.content} verticalAlign='middle' style={{textAlign: 'left'}} />
+  </Item>
 )
 
 

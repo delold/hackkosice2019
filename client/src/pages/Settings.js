@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Input, Button, Select } from 'semantic-ui-react'
-import SideBar from './SideBar'
+import SideBar from '../components/SideBar'
 
 
 class Settings extends React.Component{
@@ -9,17 +9,17 @@ class Settings extends React.Component{
 
 	render(){
 		return(
-			<SideBar>
+			<>
 				<div>
 					Monthly Income
 				</div>
-				
+
 				<div className = "ui input">
 					<input type="text" /> 
 				</div>
-				<Select placeholder='Select your country' 
-  					options={[{text: 'Hourly'},{text: 'Monthly'}]} />
-			</SideBar>
+				<Select placeholder='Select your country' options={[{text: 'Hourly'},{text: 'Monthly'}]} />
+
+			</>
 		)
 	}
 };

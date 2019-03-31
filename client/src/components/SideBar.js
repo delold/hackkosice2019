@@ -3,8 +3,6 @@ import { Button, Header, Icon, Image, Menu, Segment, Sidebar } from 'semantic-ui
 import styles from './SideBar.module.css';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-import Settings from './Settings.js'
-
 
 class SideBar extends React.Component {
   state = { visible: false }
@@ -21,8 +19,7 @@ class SideBar extends React.Component {
     	return (
       		<div>
         		<Button.Group>
-
-          			<Button onClick={this.handleShowClick}>
+							<Button onClick={this.handleShowClick}>
          				<Icon name='bars'/>
             			Show sidebar
           			</Button>
@@ -39,33 +36,38 @@ class SideBar extends React.Component {
 		            visible={visible}
 		            width='thin'>
 
-		            <Menu.Item as='a'>
-	             		<Icon name='pie chart' />
-	             		<span className="input-group-btn">
-						  <Link to="/" style={{ color: '#FFF' }}>Overview</Link>
-						</span>
-             		</Menu.Item>
+								<Link to="/" style={{ color: '#FFF' }}>
+									<Menu.Item as='a'>
+										<Icon name='pie chart' />
+										<span className="input-group-btn">
+											Overview
+										</span>
+									</Menu.Item>
+								</Link>
+								<Link to="/statistics" style={{ color: '#FFF' }}>
+										<Menu.Item as='a'>
+										<Icon name='chart bar' />
+										<span className="input-group-btn">
+										Statistics
+										</span>
+									</Menu.Item>
+								</Link>
 
-	            	<Menu.Item as='a'>
-	             		<Icon name='chart bar' />
-	             		<span className="input-group-btn">
-						  <Link to="/statistics" style={{ color: '#FFF' }}>Statistics</Link>
-						</span>
-             		</Menu.Item>
+								<Link to="/settings" style={{ color: '#FFF' }}>
+									<Menu.Item as='a'>
+										<Icon name='cog' />
+										<span className="input-group-btn">Settings</span>
+									</Menu.Item>
+								</Link>
 
-	            	<Menu.Item as='a'>
-	            		<Icon name='cog' />
-	            		<span className="input-group-btn">
-						  <Link to="/settings" style={{ color: '#FFF' }}>Settings</Link>
-						</span>
-            		</Menu.Item>
-
-            		<Menu.Item as='a'>
-	            		<Icon name='trophy' />
-	            			<span className="input-group-btn">
-							  <Link to="/achievements" style={{ color: '#FFF' }}>Achievements</Link>
-							</span>
-            		</Menu.Item>
+							  <Link to="/achievements" style={{ color: '#FFF' }}>
+									<Menu.Item as='a'>
+										<Icon name='trophy' />
+										<span className="input-group-btn">
+											Achievements
+										</span>
+									</Menu.Item>
+								</Link>
 	          	</Sidebar>
 
 	          	<Sidebar.Pusher>

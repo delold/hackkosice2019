@@ -1,24 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+
+import 'semantic-ui-css/semantic.min.css'
+import './index.css'
+
+import SideBar from './components/SideBar'
+
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-
-import Statistics from './components/Statistics';
-import AchievementsWrapper from './components/AchievementsWrapper';
-import Settings from './components/Settings';
+import HomePage from './pages/HomePage';
+import Statistics from './pages/Statistics';
+import AchievementPage from './pages/AchievementPage';
+import Settings from './pages/Settings';
 
 ReactDOM.render(
 	<Router>
-	    <Route path= "/statistics" component={Statistics} />
-	    <Route path= "/settings" component={Settings} />
-	    <Route path= "/achievements" component={AchievementsWrapper} />
-	    <Route exact path= "/" component={App}/>
-	</Router>
-		, document.getElementById('root'));
-		
+		<SideBar>
+			<Route path= "/statistics" component={Statistics} />
+			<Route path= "/settings" component={Settings} />
+			<Route path= "/achievements" component={AchievementPage} />
+			<Route exact path= "/" component={HomePage}/>
+		</SideBar>
+	</Router>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
