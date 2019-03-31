@@ -18,9 +18,7 @@ class HomePage extends Component {
 	  render() {
 	    return (
 				<>
-          <div className={styles.add}>
-					  <AddButton />
-          </div>
+					<AddButton />
           <PieChart items={defaultItems} perHour={210} />
           <List items={defaultItems} perHour={210} />
 				</>
