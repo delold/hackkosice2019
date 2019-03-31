@@ -8,18 +8,18 @@ class SideBar extends React.Component {
   state = { visible: false }
 	
 	handleShowClick = () => {
-  		if(this.state.visible === true) this.setState({ visible: false });
-  		else this.setState({ visible: true });
-  	}
-  
+		if(this.state.visible === true) this.setState({ visible: false });
+		else this.setState({ visible: true });
+	}
 
-  	render() {
-    	const { visible } = this.state
+
+	render() {
+		const { visible } = this.state
 
     	return (
 				<>
 				<div className={styles.menu} onClick={this.handleShowClick}>
-					<Icon name='bars' size="large" />
+					<Icon name='bars' size="big" />
 				</div>
 
 				<Sidebar.Pushable className={styles.sidebarcontainer}>

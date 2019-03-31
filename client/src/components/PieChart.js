@@ -1,24 +1,11 @@
 import React, { useState, useEffect, useContext, useRef } from 'react'
 import styles from './PieChart.module.css'
-import moment from 'moment'
 import { context } from '../context'
 import { createTransactionModel } from '../utils/transaction'
+import { formatDuration } from '../utils/time'
 
 import { PieChart, Pie, Cell } from 'recharts'
-
-const formatDuration = (timestamp) => {
-  const duration = moment.duration(timestamp)
-
-  const seconds = duration.seconds()
-  const minutes = duration.minutes()
-  const hours = duration.hours()
-
-  const pad = (str) => Math.abs(str) > 9 ? Math.abs(str) : `0${Math.abs(str)}`
-  const final = [pad(hours), pad(minutes), pad(seconds)].join(':')
-
-  return timestamp < 0 ? `-${final}` : final
-}
-
+import { Button, Icon } from 'semantic-ui-react';
 
 const useInterval = () => {
   const ref = useRef()
@@ -45,7 +32,8 @@ const useInterval = () => {
   
   useEffect(() => {
     if (start) {
-      setTimeout(() => setTimestamp(timestamp + 1000), 1000 - (timestamp % 1000))
+      setTimeout(() => setTimestamp((timestamp - timestamp % 1000) + 1000), 0)
+      // setTimeout(() => setTimestamp((timestamp - timestamp % 1000) + 1000), 1000 - (timestamp % 1000))
     }
   });
 
@@ -57,8 +45,8 @@ const COLORS = ['#8BC34A', '#F44336']
 const PieComponent = ({ items = [], perHour }) => {
   const [delay, toggle] = useInterval()
 
-  const source = (items.reduce((memo, { amount, type }) => type !== 'timer' && memo + amount, 0) / perHour) * 60 * 60 * 1000
-  const timers = (items.reduce((memo, { type, amount }) => type === 'timer' && memo + amount, 0) / perHour) * 60 * 60 * 1000 + delay
+  const source = (items.reduce((memo, { amount }) => amount <= 0 ? memo + amount : memo, 0) / perHour) * 60 * 60 * 1000
+  const timers = (items.reduce((memo, { type, amount }) => amount <= 0 ? memo : memo + amount, 0) / perHour) * 60 * 60 * 1000 + delay
 
   const debt = Math.abs(Math.min(0, source + timers))
   const cleared = Math.abs(timers)
@@ -102,14 +90,15 @@ const PieComponent = ({ items = [], perHour }) => {
     <div className={styles.inside} onClick={toggle}>
       <span className={styles.description}>{source + timers < 0 ? 'You need to work' : 'You are over'}</span>
       <div className={styles.hours}>
-        {formatDuration(debt)}
+        {formatDuration(Math.abs(source + timers))}
       </div>
       <span className={styles.active}>hours</span>
     </div>
-    {/* <div className={styles.controls}>
-      {!delay && <Input type="time" />}
-      <Button onClick={toggle}>{delay ? 'Stop' : 'Start'}</Button>
-    </div> */}
+    <div className={styles.controls}>
+      <button className={[styles.circle, delay ? styles.play : styles.pause].join(" ")} onClick={toggle}>
+        <Icon name={delay ? "pause" : "play"} />
+      </button>
+    </div>
   </div>
 }
 

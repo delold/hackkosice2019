@@ -29,9 +29,9 @@ const AddButton = () => {
 	return (
 		<div className={styles.container}>
 			<div className={styles.add}>
-				<Button type="ui button" onClick={() => setVisible(!visible)}> 
-					<Icon name='add circle'/>
-					<span className="input-group-btn">Add</span>
+				<Button type="ui button" color={visible ? "black" : "blue"} onClick={() => setVisible(!visible)}> 
+					<Icon name={visible ? 'close circle' : 'add circle'}/>
+					<span className="input-group-btn">{visible ? "Close" : "Add"}</span>
 				</Button>
 			</div>
 			<div className={styles.popup} style={{ display: (visible && 'flex') || 'none' }}>
@@ -56,7 +56,7 @@ const AddButton = () => {
 					}
 
 					instance.addTransaction(payload)
-
+					setVisible(false)
 					setLoading(false)
 				}}>
 					<Form.Field>
@@ -81,7 +81,7 @@ const AddButton = () => {
 					</Form.Field>
 					<Form.Group  widths='equal'>
 						<Form.Field>
-							<label>{(type === 'timer' && 'Duration') || 'Amount'}</label>
+							<label>{(type === 'timer' && 'Duration in hours') || 'Amount'}</label>
 							<input placeholder={(type === 'timer' && 'Duration') || 'Amount'} type="number" value={amount} onChange={(e) => setAmount(e.target.value)} inputMode="decimal" />
 						</Form.Field>
 						{ type !== 'timer' && <Form.Field>
@@ -98,7 +98,7 @@ const AddButton = () => {
 						loading={loading}
 						disabled={!isValid}
 					>
-						Submit
+						Save
 					</Button>
 				</Form>
 			</div>

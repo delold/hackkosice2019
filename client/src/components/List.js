@@ -6,7 +6,7 @@ import ListItem from './ListItem';
 const List = ({ items, perHour }) => {
   return (
     <div className={styles.list}>
-      {items.map(({ id, ...rest }) => <ListItem {...rest} key={id} perHour={perHour} />)}
+      {items.map(({ id, ...rest }, index) => <ListItem {...rest} key={index} perHour={perHour} />)}
     </div>
   )
 }

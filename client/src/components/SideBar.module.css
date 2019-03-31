@@ -4,12 +4,12 @@
 
 .menu {
 	position: fixed;
-	padding: 1rem;
+	padding: 2rem;
 	z-index: 999;
 }
 
 .content {
-	padding-top: 4rem;
+	padding-top: 5rem;
 }
 
 .menuWrap > * {
@@ -17,5 +17,5 @@
 }
 
 .sidebarContent {
-	padding-top: 4rem;
+	padding-top: 5rem;
 }
