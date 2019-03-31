@@ -60,7 +60,6 @@ const PieComponent = ({ items = [], perHour }) => {
   const source = (items.reduce((memo, { amount, type }) => type !== 'timer' && memo + amount, 0) / perHour) * 60 * 60 * 1000
   const timers = (items.reduce((memo, { type, amount }) => type === 'timer' && memo + amount, 0) / perHour) * 60 * 60 * 1000 + delay
 
-
   const debt = Math.abs(Math.min(0, source + timers))
   const cleared = Math.abs(timers)
 
@@ -72,6 +71,18 @@ const PieComponent = ({ items = [], perHour }) => {
   return <div className={styles.chart} style={{ width, height }}>
     <div className={styles.content}>
       <PieChart width={width} height={height}>
+        <Pie
+          dataKey="value"
+          data={[{value: 1}]}
+          cx={width / 2 - 6}
+          cy={height / 2 - 6}
+          paddingAngle={0}
+          innerRadius={100}
+          outerRadius={120}
+          isAnimationActive={false}
+          strokeWidth={0}
+          fill="#3c1b26"
+        />
         <Pie
           dataKey="value"
           data={data}
@@ -86,18 +97,6 @@ const PieComponent = ({ items = [], perHour }) => {
             data.map((_, index) => <Cell key={`cell-${index}`} fill={COLORS[index]} />)
           }
         </Pie>
-        <Pie
-          dataKey="value"
-          data={[{value: 1}]}
-          cx={width / 2 - 6}
-          cy={height / 2 - 6}
-          paddingAngle={0}
-          innerRadius={100}
-          outerRadius={120}
-          isAnimationActive={false}
-          strokeWidth={0}
-          fill="#3c1b26"
-        />
       </PieChart>
     </div>
     <div className={styles.inside} onClick={toggle}>

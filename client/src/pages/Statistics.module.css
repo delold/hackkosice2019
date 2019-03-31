@@ -1,0 +1,10 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+.list > *:last-child {
+  margin-top: 1rem;
+}
