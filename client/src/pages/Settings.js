@@ -19,21 +19,9 @@ const Settings = () => {
 			if (type === 'monthly') {
 				perHour /= 30
 			}
-
-<<<<<<< HEAD
-				<div className = "ui input">
-					<Input type="text" /> 
-				</div>
-				<Select placeholder='Select your income' options={[{text: 'Hourly'},{text: 'Monthly'}]} />
-
-			</>
-		)
-	}
-};
-=======
 			instance.setPerHour(perHour)
 		}}>
-			<Form.Group>
+			<Form.Group widths='equal'>
 				<Form.Field>
 					<label>Monthly Income</label>
 					<Select placeholder='Select your income' value={type} onChange={(e, { value }) => setType(value)} options={typeOptions} />
@@ -47,6 +35,4 @@ const Settings = () => {
 		</Form>
 	)
 }
->>>>>>> 272f6f0525c70f9f3231c5e5e8a6a6dc00252a39
-
 export default Settings;
