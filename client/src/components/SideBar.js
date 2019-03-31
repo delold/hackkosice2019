@@ -3,7 +3,7 @@ import { Icon, Menu, Sidebar } from 'semantic-ui-react';
 import styles from './SideBar.module.css';
 import { Link } from "react-router-dom";
 
-
+import logo from '../logo.png'
 class SideBar extends React.Component {
   state = { visible: false }
 	
@@ -18,6 +18,9 @@ class SideBar extends React.Component {
 
     	return (
 				<>
+				<div className={styles.logoHeader}>
+					<img className={styles.logo} src={logo} alt="Banana Milkshake"/>
+				</div>
 				<div className={styles.menu} onClick={this.handleShowClick}>
 					<Icon name='bars' size="big" />
 				</div>
@@ -58,7 +61,7 @@ class SideBar extends React.Component {
 										<Icon name='cog' />
 										<span className="input-group-btn">Settings</span>
 									</Menu.Item>
-								</Link>	
+								</Link>
 							</div>
 						</Sidebar>
 					</div>

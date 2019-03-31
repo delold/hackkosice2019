@@ -13,6 +13,7 @@ const App = ({ children }) => {
       return list.filter(({ type }) => !!type).map(item => ({
         ...item,
         date: moment(item.date).toDate(),
+        amount: Math.abs(item.amount) * (item.type === 'expense' ? -1 : 1),
         currency: item.currency.toUpperCase(),
       }))
     }).then(setTransactions)
