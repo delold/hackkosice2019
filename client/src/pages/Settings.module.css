@@ -1,9 +1,17 @@
-.test {
-  align: center;
-  width: '70%';
-}
 
 .flexfix{
   display: flex;
+  color: white;
   flex-direction: column;
+
+  padding: 0 1.5rem;
+}
+
+.h1 {
+  font-size: 3em;
+  font-weight: 500;
+}
+
+.flexfix label {
+  color: white !important;
 }

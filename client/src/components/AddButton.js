@@ -29,7 +29,7 @@ const AddButton = () => {
 	return (
 		<div className={styles.container}>
 			<div className={styles.add}>
-				<Button type="ui button" color={visible ? "black" : "green"} onClick={() => setVisible(!visible)}> 
+				<Button type="ui button" color={visible ? "black" : "orange"} onClick={() => setVisible(!visible)}> 
 					<Icon name={visible ? 'close circle' : 'add circle'}/>
 					<span className="input-group-btn">{visible ? "Close" : "Add"}</span>
 				</Button>
@@ -52,6 +52,7 @@ const AddButton = () => {
 							category,
 						})
 					} else {
+						payload.category = "Work"
 						payload.amount *= instance.getPerHour() 
 					}
 

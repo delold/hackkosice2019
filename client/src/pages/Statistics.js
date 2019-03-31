@@ -32,7 +32,7 @@ const Statistics = () => {
 
 	return (
 		<div className={styles.list}>
-
+			<h1 className={styles.h1}>Statistics</h1>
 			<ResponsiveContainer height={400}>
 				<BarChart data={data} margin={{top: 5, right: 30, left: 20, bottom: 5}}>
 					<XAxis dataKey="name" stroke="#fff" />
