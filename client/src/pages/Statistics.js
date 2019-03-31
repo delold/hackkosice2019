@@ -40,7 +40,7 @@ const Statistics = () => {
 					<YAxis stroke="#fff"/>
 					<Tooltip/>
 					<Legend />
-					<Bar dataKey="expense" fill="#d01919" />
+					<Bar dataKey="expense" fill="#f2711c" />
 					<Bar dataKey="income" fill="#8BC34A" />
 					<Bar dataKey="timer" fill="#2185d0" />
 				</BarChart>
