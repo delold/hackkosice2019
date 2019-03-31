@@ -17,7 +17,7 @@ class Settings extends React.Component{
 				<div className = "ui input">
 					<input type="text" /> 
 				</div>
-				<Select placeholder='Select your country' options={[{text: 'Hourly'},{text: 'Monthly'}]} />
+				<Select placeholder='Select your income' options={[{text: 'Hourly'},{text: 'Monthly'}]} />
 
 			</>
 		)
