@@ -58,16 +58,7 @@ class SideBar extends React.Component {
 										<Icon name='cog' />
 										<span className="input-group-btn">Settings</span>
 									</Menu.Item>
-								</Link>
-
-								<Link to="/achievements" style={{ color: '#FFF' }}>
-									<Menu.Item as='a'>
-										<Icon name='trophy' />
-										<span className="input-group-btn">
-											Achievements
-										</span>
-									</Menu.Item>
-								</Link>
+								</Link>	
 							</div>
 						</Sidebar>
 					</div>
