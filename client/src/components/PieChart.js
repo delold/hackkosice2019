@@ -5,7 +5,7 @@ import { createTransactionModel } from '../utils/transaction'
 import { formatDuration } from '../utils/time'
 
 import { PieChart, Pie, Cell } from 'recharts'
-import { Button, Icon } from 'semantic-ui-react';
+import { Icon } from 'semantic-ui-react';
 
 const useInterval = () => {
   const ref = useRef()

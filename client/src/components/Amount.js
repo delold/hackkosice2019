@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { formatHumanDuration } from '../utils/time'
 import styles from './Amount.module.css'
 

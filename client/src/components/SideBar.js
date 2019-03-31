@@ -1,7 +1,7 @@
 import React from 'react';
-import { Button, Header, Icon, Image, Menu, Segment, Sidebar } from 'semantic-ui-react';
+import { Icon, Menu, Sidebar } from 'semantic-ui-react';
 import styles from './SideBar.module.css';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 class SideBar extends React.Component {

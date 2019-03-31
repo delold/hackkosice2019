@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react'
-import { Input, Button, Select, Form, Header } from 'semantic-ui-react'
+import { Button, Select, Form } from 'semantic-ui-react'
 
 import { context } from '../context'
 

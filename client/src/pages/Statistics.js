@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react';
 import { Bar, BarChart, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer } from 'recharts'
-import { Button, Card } from 'semantic-ui-react'
+import { Button } from 'semantic-ui-react'
 import moment from 'moment'
 
 import styles from './Statistics.module.css'
@@ -13,6 +13,7 @@ const getGroupGenerator = (period) => {
 		case 'W': return (date) => moment(date).format('wo \\w\\e\\e\\k \\o\\f YYYY')
 		case 'M': return (date) => moment(date).format('YYYY-MM')
 		case 'Y': return (date) => moment(date).format('YYYY')
+		default: return () => ""
 	}
 }
 const Statistics = () => {

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import styles from './CategoryImage.module.css'
 import { Icon } from 'semantic-ui-react';
 
