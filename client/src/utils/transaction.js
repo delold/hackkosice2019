@@ -4,6 +4,7 @@ export const createTransactionModel = (overrides = {}) => ({
   currency: '',
   category: 'Restaurant',
   description: '',
+  currency: 'EUR',
   author_id: 0,
   date: new Date(),
   location: '',

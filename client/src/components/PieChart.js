@@ -24,6 +24,7 @@ const useInterval = () => {
         type: 'timer',
         amount: instance.getPerHour() * ((timestamp - start) / (1000 * 60 * 60)),
         category: 'Work',
+        currency: 'EUR'
       }))
 
       setStart(null)

@@ -4,7 +4,7 @@
 
 .menu {
 	position: fixed;
-	padding: 2rem;
+	padding: 1.5rem;
 	z-index: 999;
 }
 
@@ -17,5 +17,6 @@
 }
 
 .sidebarContent {
+	min-height: calc(100vh - 5rem);
 	padding-top: 5rem;
 }
