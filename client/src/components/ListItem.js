@@ -12,7 +12,7 @@ const ListItem = ({ category, detail, type, date, amount, perHour, currency = 'E
         <CategoryImage image={getCategoryImage(type)} color={getCategoryColor(type)} />
       </div>
       <div className={styles.content}>
-        <span className={styles.name}>{category}</span>
+        <span className={styles.name}>{category || `${type.slice(0, 1).toUpperCase()}${type.slice(1)}`}</span>
         <span className={styles.detail}>{detail || moment(date).format('MMM DD, YYYY HH:mm:ss')}</span>
       </div>
       <div className={styles.amount}>

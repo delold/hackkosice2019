@@ -1,30 +1,22 @@
 import React, { useState, useEffect } from 'react'
 import { context } from './context'
-import { createTransactionModel } from './utils/transaction'
+import { getAllTransactions, addNewTransaction } from './utils/blockchain'
+
 import moment from 'moment'
 
 const App = ({ children }) => {
   const [perHour, setPerHour] = useState(100)
-  const [transactions, setTransactions] = useState([
-    createTransactionModel({ id: 0, amount: -20, type: 'expense' }),
-    createTransactionModel({ id: 1, amount: -20, type: 'expense' }),
-    createTransactionModel({ id: 2, amount: 20, type: 'income' }),
-    createTransactionModel({ id: 3, amount: 20, type: 'timer' }),
-    createTransactionModel({ id: 4, amount: -20, type: 'expense' }),
-  ])
+  const [transactions, setTransactions] = useState([])
 
   useEffect(() => {
-    fetch('https://banana-milkshake.appspot.com/user/1/transactions', {
-      headers: { 'Content-Type': 'application/json' },
-    }).then((a) => a.json()).then(list => {
-      console.log(list)
-      return list.map(item => ({
+    getAllTransactions().then(list => {
+      return list.filter(({ type }) => !!type).map(item => ({
         ...item,
         date: moment(item.date).toDate(),
         currency: item.currency.toUpperCase(),
       }))
     }).then(setTransactions)
-  })
+  }, [perHour])
 
   return (
     <context.Provider
@@ -35,7 +27,10 @@ const App = ({ children }) => {
         getPerHour: () => perHour,
         setPerHour,
         setTransactions,
-        addTransaction: (model) => setTransactions([model, ...transactions])
+        addTransaction: (model) => {
+          setTransactions([model, ...transactions])
+          addNewTransaction(model)
+        }
       }}
     >{children}</context.Provider>
   )

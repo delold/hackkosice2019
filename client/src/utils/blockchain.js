@@ -1,12 +1,27 @@
 import "reflect-metadata";
-import { serialize } from "class-transformer";
-import { AssetAmount, ChainObject, Credentials, DCoreSdk, OperationHistory, TransactionConfirmation } from "dcorejs-sdk";
-
+import { ChainObject, Credentials, DCoreSdk } from "dcorejs-sdk";
 
 const creds = new Credentials(ChainObject.parse("1.2.19"), "5KfatbpE1zVdnHgFydT7Cg9hJmUVLN7vQXJkBbzGrNSND3uFmAa");
 const api = DCoreSdk.createForWebSocket(() => new WebSocket("wss://testnet-api.dcore.io"));
 
-api.messageApi.sendMessages(creds, [[ChainObject.parse("1.2.19"), "long message which should not be decrypted"]])
-.subscribe((value) => console.log('sending message', value));
+export const getAllTransactions = () => new Promise((resolve) => {
+  api.messageApi.getAll(creds.account).subscribe(value => {
+    resolve(value.reduce((memo, { encrypted, message }) => {
+      try {
+        if (!encrypted && message.indexOf('FIT:') >= 0) {
+          memo.push(JSON.parse(message.replace('FIT:', '')))
+        }
+      } catch (err) {
+        console.log(err)
+      }
+      return memo
+    }, []))
+  })
+})
 
-api.messageApi.getAllDecryptedForSender(creds).subscribe(console.log)
+export const addNewTransaction = (model) => new Promise((resolve, reject) => {
+  api.messageApi.sendMessagesUnencrypted(creds, [
+    [ChainObject.parse("1.2.19"), `FIT:${JSON.stringify(model)}`]
+  ]).subscribe(resolve, reject)
+})
+

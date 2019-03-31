@@ -8,6 +8,8 @@ import SideBar from './components/SideBar'
 
 import App from './App'
 
+import './utils/blockchain'
+
 import * as serviceWorker from './serviceWorker'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
