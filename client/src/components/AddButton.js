@@ -3,6 +3,7 @@ import styles from './AddButton.module.css'
 import {Button, Icon, Select, Form} from 'semantic-ui-react'
 import DayPickerInput from 'react-day-picker/DayPickerInput'
 import 'react-day-picker/lib/style.css'
+import { formatHumanDuration } from '../utils/time'
 import moment from 'moment'
 
 import { context } from '../context'
@@ -92,19 +93,24 @@ const AddButton = () => {
 							<DayPickerInput onDayChange={(value) => setDate(value)} value={date} />
 						</div>
 					</Form.Field>
-					<Form.Group  widths='equal'>
-						<Form.Field>
-							<label>{(type === 'timer' && 'Duration in hours') || 'Amount'}</label>
-							<input placeholder={(type === 'timer' && 'Duration') || 'Amount'} type="number" value={amount} onChange={(e) => setAmount(e.target.value)} inputMode="decimal" />
-						</Form.Field>
-						{ type !== 'timer' && <Form.Field>
-							<label>Currency</label>
-							<Select placeholder='ABC...' value={currency} onChange={(e, { value }) => setCurrency(value)} options={[
-								{ key: 'EUR', text: 'EUR', value: 'EUR' },
-								{ key: 'CZK', text: 'CZK', value: 'CZK' },
-							]} />
-						</Form.Field> }
-					</Form.Group>
+					<Form.Field>
+						<label>{(type === 'timer' && 'Duration in hours') || 'Amount'}</label>
+						<input placeholder={(type === 'timer' && 'Duration') || 'Amount'} type="number" value={amount} onChange={(e) => setAmount(e.target.value)} inputMode="decimal" />
+					</Form.Field>
+					{ type !== 'timer' && <Form.Field>
+						<label>Currency</label>
+						<Select placeholder='ABC...' value={currency} onChange={(e, { value }) => setCurrency(value)} options={[
+							{ key: 'EUR', text: 'EUR', value: 'EUR' },
+							{ key: 'CZK', text: 'CZK', value: 'CZK' },
+						]} />
+					</Form.Field> }
+					{ type !== 'timer' && !Number.isNaN(Number.parseFloat(amount)) && <Form.Field>
+						Converted time: <span className={[styles.amount, type === 'expense' ? styles.negative : styles.positive].join(" ")}>{formatHumanDuration((Number.parseFloat(amount) / instance.getPerHour()) * 60 * 60 * 1000, true)}</span>
+					</Form.Field> }
+
+					{ type === 'timer' && !Number.isNaN(Number.parseFloat(amount)) && <Form.Field>
+						Converted amount: <span className={[styles.amount, styles.positive].join(" ")}>{Number.parseFloat(amount) * instance.getPerHour()} EUR</span>
+					</Form.Field> }
 					<Button
 						type='submit'
 						color="green"

@@ -33,3 +33,16 @@
 .date > * {
   width: 100%;
 }
+
+.amount {
+  font-weight: 600;
+}
+
+
+.positive {
+  color: #8BC34A;  
+}
+
+.negative {
+  color: #d01919;  
+}

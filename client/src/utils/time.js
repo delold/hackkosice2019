@@ -6,11 +6,16 @@ export const formatDuration = (timestamp) => {
   const seconds = duration.seconds()
   const minutes = duration.minutes()
   const hours = duration.hours()
+  const days = duration.days()
 
   const pad = (str) => Math.abs(str) > 9 ? Math.abs(str) : `0${Math.abs(str)}`
-  const final = [pad(hours), pad(minutes), pad(seconds)].join(':')
+  const final = [pad(hours), pad(minutes), pad(seconds)]
 
-  return timestamp < 0 ? `-${final}` : final
+  if (days > 0) {
+    final.unshift(days)
+  }
+
+  return timestamp < 0 ? `-${final.join(':')}` : final.join(':')
 }
 
 export const formatHumanDuration = (timestamp) => moment.duration(timestamp).humanize()
