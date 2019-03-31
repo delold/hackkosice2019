@@ -1,0 +1,9 @@
+.test {
+  align: center;
+  width: '70%';
+}
+
+.flexfix{
+  display: flex;
+  flex-direction: column;
+}
