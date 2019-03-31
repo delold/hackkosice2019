@@ -8,8 +8,8 @@ export const getAllTransactions = () => new Promise((resolve) => {
   api.messageApi.getAll(creds.account).subscribe(value => {
     resolve(value.reduce((memo, { encrypted, message }) => {
       try {
-        if (!encrypted && message.indexOf('FIT:') >= 0) {
-          memo.push(JSON.parse(message.replace('FIT:', '')))
+        if (!encrypted && message.indexOf('FIT2:') >= 0) {
+          memo.push(JSON.parse(message.replace('FIT2:', '')))
         }
       } catch (err) {
         console.log(err)
@@ -21,7 +21,7 @@ export const getAllTransactions = () => new Promise((resolve) => {
 
 export const addNewTransaction = (model) => new Promise((resolve, reject) => {
   api.messageApi.sendMessagesUnencrypted(creds, [
-    [ChainObject.parse("1.2.19"), `FIT:${JSON.stringify(model)}`]
+    [ChainObject.parse("1.2.19"), `FIT2:${JSON.stringify(model)}`]
   ]).subscribe(resolve, reject)
 })
 

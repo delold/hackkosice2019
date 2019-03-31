@@ -46,8 +46,17 @@ const COLORS = ['#8BC34A', '#F44336']
 const PieComponent = ({ items = [], perHour }) => {
   const [delay, toggle] = useInterval()
 
-  const source = (items.reduce((memo, { amount }) => amount <= 0 ? memo + amount : memo, 0) / perHour) * 60 * 60 * 1000
+  const source = (items.reduce((memo, { amount, ...rest }) => {
+    if (amount <= 0) {
+      console.log(rest)
+      return memo + amount
+    }
+
+    return memo
+  }, 0) / perHour) * 60 * 60 * 1000
   const timers = (items.reduce((memo, { type, amount }) => amount <= 0 ? memo : memo + amount, 0) / perHour) * 60 * 60 * 1000 + delay
+  
+  console.log(items, timers, source)
 
   const debt = Math.abs(Math.min(0, source + timers))
   const cleared = Math.abs(timers)
@@ -56,6 +65,8 @@ const PieComponent = ({ items = [], perHour }) => {
   const height = 300
 
   const data = [{ value: cleared }, { value: debt }]
+
+  const [dur, label] = formatDuration(Math.abs(source + timers))
   
   return <div className={styles.chart} style={{ width, height }}>
     <div className={styles.content}>
@@ -91,9 +102,9 @@ const PieComponent = ({ items = [], perHour }) => {
     <div className={styles.inside} onClick={toggle}>
       <span className={styles.description}>{source + timers < 0 ? 'You need to work' : 'You are over'}</span>
       <div className={styles.hours}>
-        {formatDuration(Math.abs(source + timers))}
+        {dur}
       </div>
-      <span className={styles.active}>hours</span>
+      <span className={styles.active}>{label}</span>
     </div>
     <div className={styles.controls}>
       <button className={[styles.circle, delay ? styles.play : styles.pause].join(" ")} onClick={toggle}>

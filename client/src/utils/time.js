@@ -11,11 +11,14 @@ export const formatDuration = (timestamp) => {
   const pad = (str) => Math.abs(str) > 9 ? Math.abs(str) : `0${Math.abs(str)}`
   const final = [pad(hours), pad(minutes), pad(seconds)]
 
+  let velocity = "hours"
+
   if (days > 0) {
     final.unshift(days)
+    velocity = "days"
   }
 
-  return timestamp < 0 ? `-${final.join(':')}` : final.join(':')
+  return [timestamp < 0 ? `-${final.join(':')}` : final.join(':'), velocity]
 }
 
 export const formatHumanDuration = (timestamp) => moment.duration(timestamp).humanize()

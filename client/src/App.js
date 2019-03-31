@@ -3,10 +3,20 @@ import { context } from './context'
 import { getAllTransactions, addNewTransaction } from './utils/blockchain'
 
 import moment from 'moment'
+import { createTransactionModel } from './utils/transaction';
 
 const App = ({ children }) => {
   const [perHour, setPerHour] = useState(100)
-  const [transactions, setTransactions] = useState([])
+  const [transactions, setTransactions] = useState([
+    // createTransactionModel({ id: 0, amount: 350, type: 'timer' }),
+    // createTransactionModel({ id: 1, amount: -350, type: 'expense' }),
+    // createTransactionModel({ id: 2, amount: 150, type: 'income' }),
+    // createTransactionModel({ id: 3, amount: 3550, type: 'income' }),
+    // createTransactionModel({ id: 4, amount: 200, type: 'income' }),
+    // createTransactionModel({ id: 5, amount: -850, type: 'expense' }),
+    // createTransactionModel({ id: 6, amount: 50, type: 'income' }),
+    // createTransactionModel({ id: 7, amount: -350, type: 'expense' }),
+  ])
 
   useEffect(() => {
     getAllTransactions().then(list => {
