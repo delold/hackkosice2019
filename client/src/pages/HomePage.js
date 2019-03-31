@@ -1,31 +1,27 @@
-import React, { Component } from 'react';
+import React, { useContext } from 'react'
+
+import { context } from '../context'
 
 import PieChart from '../components/PieChart'
 import List from '../components/List'
 
 import styles from './HomePage.module.css'
-
-import SideBar from '../components/SideBar'
 import AddButton from '../components/AddButton'
 
-import { createTransactionModel } from '../utils/transaction'
 
-const defaultItems = [
-  createTransactionModel({ id: 0 }),
-]
+const HomePage = () => {
+	const instance = useContext(context)
+	const transactions = instance.getTransactions()
+	const perHour = instance.getPerHour()
 
-class HomePage extends Component {
-	  render() {
-	    return (
-				<>
-          <div className={styles.add}>
-					  <AddButton />
-          </div>
-          <PieChart items={defaultItems} perHour={210} />
-          <List items={defaultItems} perHour={210} />
-				</>
-	    );
-	}
+	console.log(transactions, perHour)
+	return (
+		<>
+			<AddButton />
+			<PieChart items={transactions} perHour={perHour} />
+			<List items={transactions} perHour={perHour} />
+		</>
+	)
 }
 
 export default HomePage;
