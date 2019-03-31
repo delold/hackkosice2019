@@ -76,6 +76,14 @@ const AddButton = () => {
 						<Select placeholder='Category...' value={category} onChange={(e, { value }) => setCategory(value)} options={[
 							{ key: 'Restaurants', text: 'Restaurants', value: 'Restaurants' },
 							{ key: 'Groceries', text: 'Groceries', value: 'Groceries' },
+							{ key: 'Bank', text: 'Bank', value: 'Bank' },
+							{ key: 'Taxi', text: 'Taxi', value: 'Taxi' },
+							{ key: 'Drug / Pharmacies', text: 'Drug / Pharmacies', value: 'Drug / Pharmacies' },
+							{ key: 'Jewellery', text: 'Jewellery', value: 'Jewellery' },
+							{ key: 'Food', text: 'Food', value: 'Food' },
+							{ key: 'Dentist', text: 'Dentist', value: 'Dentist' },
+							{ key: 'Clothing', text: 'Clothing', value: 'Clothing' },
+							{ key: 'Other', text: 'Other', value: 'Other' },
 						]} />
 					</Form.Field> }
 					<Form.Field>
