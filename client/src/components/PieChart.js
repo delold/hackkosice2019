@@ -96,10 +96,10 @@ const PieComponent = ({ items = [], perHour }) => {
       </div>
       <span className={styles.active}>hours</span>
     </div>
-    <div className={styles.controls}>
+    {/* <div className={styles.controls}>
       {!delay && <Input type="time" />}
       <Button onClick={toggle}>{delay ? 'Stop' : 'Start'}</Button>
-    </div>
+    </div> */}
   </div>
 }
 

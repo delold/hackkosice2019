@@ -15,7 +15,7 @@ const App = ({ children }) => {
         getPerHour: () => perHour,
         setPerHour,
         setTransactions,
-        addTransaction: (model) => setTransactions([...transactions, model])
+        addTransaction: (model) => setTransactions([model, ...transactions])
       }}
     >{children}</context.Provider>
   )

@@ -1,11 +1,15 @@
-import React, { useState } from 'react'
+import React, { useState, useContext } from 'react'
 import styles from './AddButton.module.css'
 import {Button, Icon, Select, Form} from 'semantic-ui-react'
 import DayPickerInput from 'react-day-picker/DayPickerInput'
 import 'react-day-picker/lib/style.css'
 import moment from 'moment'
 
+import { context } from '../context'
+
 const AddButton = () => {
+	const instance = useContext(context)
+
 	const [type, setType] = useState('expense')
 	const [date, setDate] = useState(new Date())
 	const [category, setCategory] = useState(undefined)
@@ -15,7 +19,14 @@ const AddButton = () => {
 	const [visible, setVisible] = useState(false)
 	const [loading, setLoading] = useState(false)
 
-  return (
+	let isValid = false
+	if (type !== 'timer' && category && date && currency && amount) {
+		isValid = true
+	} else if (type === 'timer' && date && amount) {
+		isValid = true
+	}
+
+	return (
 		<div className={styles.container}>
 			<div className={styles.add}>
 				<Button type="ui button" onClick={() => setVisible(!visible)}> 
@@ -26,42 +37,36 @@ const AddButton = () => {
 			<div className={styles.popup} style={{ display: (visible && 'flex') || 'none' }}>
 				<Form onSubmit={async () => {
 					setLoading(true)
-					await fetch('/add', {
-						method: 'POST',
-						headers: {
-							'Content-Type': 'application/json'
-						},
-						body: (() => {
-							const payload = {
-								type,
-								amount: Number.parseFloat(amount),
-								description: '',
-								author_id: 0,
-								date: moment(date).format('YYYY-MM-DD HH:mm:ss'),
-								location: '',
-							}
-							
-							if (payload !== 'time') {
-								Object.assign(payload, {
-									currency,
-									category,
-								})
-							}
+					const payload = {
+						type,
+						amount: Number.parseFloat(amount),
+						description: '',
+						author_id: 0,
+						date: moment(date).format('YYYY-MM-DD HH:mm:ss'),
+						location: '',
+					}
+					
+					if (type !== 'timer') {
+						Object.assign(payload, {
+							currency,
+							category,
+						})
+					} else {
+						payload.amount *= instance.getPerHour() 
+					}
 
-							return payload
-						})()
-					})
+					instance.addTransaction(payload)
 
 					setLoading(false)
 				}}>
 					<Form.Field>
 						<Button.Group>
-							<Button color={type === 'expense' ? 'red' : undefined} onClick={() => setType('expense')}>Expense</Button>
-							<Button color={type === 'income' ? 'green' : undefined} onClick={() => setType('income')}>Income</Button>
-							<Button color={type === 'time' ? 'blue' : undefined} onClick={() => setType('time')}>Time</Button>
+							<Button as="a" color={type === 'expense' ? 'red' : undefined} onClick={() => setType('expense')}>Expense</Button>
+							<Button as="a" color={type === 'income' ? 'green' : undefined} onClick={() => setType('income')}>Income</Button>
+							<Button as="a" color={type === 'timer' ? 'blue' : undefined} onClick={() => setType('timer')}>Time</Button>
 						</Button.Group>
 					</Form.Field>
-					{ type !== 'time' && <Form.Field>
+					{ type !== 'timer' && <Form.Field>
 						<label>Category</label>
 						<Select placeholder='Category...' value={category} onChange={(e, { value }) => setCategory(value)} options={[
 							{ key: 'Restaurants', text: 'Restaurants', value: 'Restaurants' },
@@ -76,10 +81,10 @@ const AddButton = () => {
 					</Form.Field>
 					<Form.Group  widths='equal'>
 						<Form.Field>
-							<label>{(type === 'time' && 'Duration') || 'Amount'}</label>
-							<input placeholder={(type === 'time' && 'Duration') || 'Amount'} type="number" value={amount} onChange={(e) => setAmount(e.target.value)} inputMode="decimal" />
+							<label>{(type === 'timer' && 'Duration') || 'Amount'}</label>
+							<input placeholder={(type === 'timer' && 'Duration') || 'Amount'} type="number" value={amount} onChange={(e) => setAmount(e.target.value)} inputMode="decimal" />
 						</Form.Field>
-						{ type !== 'time' && <Form.Field>
+						{ type !== 'timer' && <Form.Field>
 							<label>Currency</label>
 							<Select placeholder='ABC...' value={currency} onChange={(e, { value }) => setCurrency(value)} options={[
 								{ key: 'EUR', text: 'EUR', value: 'EUR' },
@@ -91,7 +96,7 @@ const AddButton = () => {
 						type='submit'
 						color="green"
 						loading={loading}
-						disabled={!(type && category && date && currency && amount)}
+						disabled={!isValid}
 					>
 						Submit
 					</Button>

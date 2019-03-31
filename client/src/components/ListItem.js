@@ -5,11 +5,11 @@ import Amount from './Amount';
 import { getCategoryColor, getCategoryImage } from '../utils/color';
 
 
-const ListItem = ({ category, detail, amount, perHour, currency = 'EUR' }) => {
+const ListItem = ({ category, detail, type, amount, perHour, currency = 'EUR' }) => {
   return (
     <div className={styles.item}>
       <div className={styles.image}>
-        <CategoryImage image={getCategoryImage(category)} color={getCategoryColor(category)} />
+        <CategoryImage image={getCategoryImage(type)} color={getCategoryColor(type)} />
       </div>
       <div className={styles.content}>
         <span className={styles.name}>{category}</span>
