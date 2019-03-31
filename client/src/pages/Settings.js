@@ -19,10 +19,9 @@ const Settings = () => {
 			if (type === 'monthly') {
 				perHour /= 30
 			}
-
 			instance.setPerHour(perHour)
 		}}>
-			<Form.Group>
+			<Form.Group widths='equal'>
 				<Form.Field>
 					<label>Monthly Income</label>
 					<Select placeholder='Select your income' value={type} onChange={(e, { value }) => setType(value)} options={typeOptions} />
@@ -36,5 +35,4 @@ const Settings = () => {
 		</Form>
 	)
 }
-
 export default Settings;
